@@ -1,0 +1,112 @@
+Trips =
+SUM(fact_zone_hour[trips])
+
+Fare N =
+SUM(fact_zone_hour[fare_n])
+
+Total Charge =
+SUM(fact_zone_hour[total_charge_sum])
+
+Avg Fare =
+DIVIDE(SUM(fact_zone_hour[fare_sum]),[Fare N])
+
+Avg Total Charge =
+DIVIDE([Total Charge],[Fare N])
+
+Efficiency N =
+SUM(fact_zone_hour[efficiency_n])
+
+Avg Distance =
+DIVIDE(SUM(fact_zone_hour[distance_km_sum]),[Efficiency N])
+
+Avg Duration =
+DIVIDE(SUM(fact_zone_hour[duration_min_sum]),[Efficiency N])
+
+Avg Speed =
+DIVIDE(SUM(fact_zone_hour[speed_kmh_sum]),[Efficiency N])
+
+Card Tip Rate =
+DIVIDE(SUM(fact_zone_hour[tip_sum]),SUM(fact_zone_hour[tip_fare_sum]))
+
+Flagged N =
+SUM(fact_zone_hour[flagged_n])
+
+Flag Rate =
+DIVIDE([Flagged N],[Trips])
+
+Raw Rows =
+SUM(data_quality_monthly[raw_rows])
+
+Unknown Pickup =
+SUM(data_quality_monthly[unknown_pickup])
+
+Negative Amount Rows =
+SUM(data_quality_monthly[negative_amount])
+
+Recorded Duplicates =
+SUM(data_quality_monthly[identical_field_extra_rows])
+
+Selected Model =
+"LightGBM（63叶）"
+
+Forecast Actual =
+SUM(forecast_hourly[actual])
+
+Forecast Predicted =
+SUM(forecast_hourly[predicted])
+
+Forecast WAPE =
+DIVIDE(SUM(forecast_hourly[absolute_error]),[Forecast Actual])
+
+Forecast MAE =
+DIVIDE(SUM(forecast_hourly[absolute_error]),COUNTROWS(forecast_hourly))
+
+Forecast RMSE =
+SQRT(DIVIDE(SUM(forecast_hourly[squared_error]),COUNTROWS(forecast_hourly)))
+
+Test WAPE =
+MAX(test_metrics[wape])
+
+Test MAE =
+MAX(test_metrics[mae])
+
+Test RMSE =
+MAX(test_metrics[rmse])
+
+Selected Budget =
+SELECTEDVALUE(dim_budget[budget],1000)
+
+Sim Actual =
+VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[actual]),simulation_hourly[budget]=B)
+
+Sim Allocation =
+VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[allocation]),simulation_hourly[budget]=B)
+
+Sim Served =
+VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[served]),simulation_hourly[budget]=B)
+
+Sim Uncovered =
+VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[uncovered]),simulation_hourly[budget]=B)
+
+Sim Idle =
+VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[idle]),simulation_hourly[budget]=B)
+
+Sim Coverage =
+DIVIDE([Sim Served],[Sim Actual])
+
+Sim Utilization =
+DIVIDE([Sim Served],[Sim Allocation])
+
+Forecast Served =
+CALCULATE([Sim Served],dim_strategy[strategy]="forecast")
+
+Forecast Coverage =
+CALCULATE([Sim Coverage],dim_strategy[strategy]="forecast")
+
+Forecast Idle =
+CALCULATE([Sim Idle],dim_strategy[strategy]="forecast")
+
+Forecast Advantage =
+CALCULATE([Sim Served],dim_strategy[strategy]="forecast")-CALCULATE([Sim Served],dim_strategy[strategy]="history")
+
+Daily Avg Trips = DIVIDE([Trips],COUNTROWS(dim_date))

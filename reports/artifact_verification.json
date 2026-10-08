@@ -1,0 +1,369 @@
+{
+  "verified_at": "2026-10-08T03:27:21.738250+00:00",
+  "passed": true,
+  "passed_count": 60,
+  "total_count": 60,
+  "checks": [
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-01.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-02.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-03.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-04.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-05.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-06.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-07.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-08.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-09.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-10.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-11.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/raw/yellow_tripdata_2025-12.parquet",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/reference/taxi_zone_lookup.csv",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/reference/taxi_zones.zip",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "source_identity:data/reference/weather_2025.json",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "12_complete_months",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "footer_vs_full_scan",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "exclusions_partition",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_raw_rows",
+      "passed": true,
+      "actual": 48722602,
+      "expected": 48722602
+    },
+    {
+      "check": "sql_demand_rows",
+      "passed": true,
+      "actual": 48619345,
+      "expected": 48619345
+    },
+    {
+      "check": "sql_fare_n",
+      "passed": true,
+      "actual": 44970845,
+      "expected": 44970845
+    },
+    {
+      "check": "sql_efficiency_n",
+      "passed": true,
+      "actual": 46406152,
+      "expected": 46406152
+    },
+    {
+      "check": "sql_tip_n",
+      "passed": true,
+      "actual": 30972336,
+      "expected": 30972336
+    },
+    {
+      "check": "sql_monthly_trips",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_monthly_fare_n",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_monthly_fare_sum",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_monthly_total_charge_sum",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "independent_sql_hourly",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "grid_unique",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "grid_263_zones",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "grid_total_reconciles",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "dst_not_valid",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "eligible_features_finite",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "features_only_allowlist",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "validation_selects_winner",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "chronology_fold_9",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "chronology_fold_10",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "chronology_fold_11",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "test_only_december",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "test_never_selects_model",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "test_row_alignment",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "baseline_recalculation_daily_naive",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "baseline_recalculation_weekly_naive",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "baseline_recalculation_four_week_mean",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "independent_model_reload_lgbm_31",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "independent_model_reload_lgbm_63",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_test_n",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_test_actual_sum",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_test_wape",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_test_mae",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sql_test_rmse",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "simulation_hourly_budget_conserved",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "simulation_nonnegative",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "simulation_demand_conserved",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "simulation_capacity_conserved",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "simulation_coverage_bounded",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "map_unique_keys",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "map_covers_all_physical_zones",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "365_unique_calendar_weather_dates",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "weather_complete_variables",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    }
+  ],
+  "reproducibility_note": "Independent process recomputes source-to-hour SQL, reloads saved final models, re-predicts the complete December test set, recalculates metrics and simulation identities."
+}

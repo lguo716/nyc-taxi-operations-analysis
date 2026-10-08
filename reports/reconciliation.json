@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "check": "source_rows_reconciled",
+      "actual": 48722602,
+      "expected": 48722602,
+      "passed": true
+    },
+    {
+      "check": "hourly_demand_reconciled",
+      "actual": 48619345,
+      "expected": 48619345,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

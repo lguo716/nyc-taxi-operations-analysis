@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "城市出行运营分析"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "72f04e9c-2b93-42d9-b547-90a6d0369cad"
+  }
+}

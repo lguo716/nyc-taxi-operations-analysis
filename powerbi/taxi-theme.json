@@ -1,0 +1,13 @@
+{
+  "name": "Taxi_Portfolio",
+  "dataColors": [
+    "#2563EB",
+    "#0D9488",
+    "#D97706",
+    "#64748B",
+    "#8B5CF6"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0F172A",
+  "tableAccent": "#2563EB"
+}

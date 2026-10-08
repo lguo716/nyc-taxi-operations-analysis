@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.jupyter/
+data/raw/
+data/tmp/
+data/processed/
+data/reference/*.zip
+models/*.txt
+logs/
+powerbi/node_modules/
+powerbi/**/.pbi/
+*.part
+*.duckdb*
+# Large Power BI tables are published in the verified ZIP instead.
+reports/tables/fact_zone_hour.csv
+reports/tables/simulation_hourly.csv
+# Machine-specific authoring cache/diagnostics.
+powerbi/validation_offline.json

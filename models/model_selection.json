@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "selected_model": "lgbm_63",
+  "selected_label": "LightGBM（63叶）",
+  "selection_metric": "equal-weight mean WAPE over Sep, Oct, Nov",
+  "validation_scores": {
+    "daily_naive": 0.3123948081736651,
+    "weekly_naive": 0.23950377654383437,
+    "four_week_mean": 0.2177080310520072,
+    "lgbm_31": 0.1580829310255298,
+    "lgbm_63": 0.15586251016296712
+  },
+  "refit_iterations": {
+    "lgbm_31": 2000,
+    "lgbm_63": 2000
+  },
+  "test_month": "2025-12",
+  "splits": [
+    {
+      "validation_month": 9,
+      "train_n": 1311844,
+      "validation_n": 189360,
+      "train_end": "2025-08-31 23:00:00",
+      "validation_start": "2025-09-01 00:00:00",
+      "validation_end": "2025-09-30 23:00:00"
+    },
+    {
+      "validation_month": 10,
+      "train_n": 1501204,
+      "validation_n": 195672,
+      "train_end": "2025-09-30 23:00:00",
+      "validation_start": "2025-10-01 00:00:00",
+      "validation_end": "2025-10-31 23:00:00"
+    },
+    {
+      "validation_month": 11,
+      "train_n": 1696876,
+      "validation_n": 144124,
+      "train_end": "2025-10-31 23:00:00",
+      "validation_start": "2025-11-01 00:00:00",
+      "validation_end": "2025-11-30 23:00:00"
+    }
+  ],
+  "params": {
+    "objective": "poisson",
+    "metric": "l1",
+    "learning_rate": 0.05,
+    "n_estimators": 2000,
+    "min_child_samples": 40,
+    "max_bin": 127,
+    "n_jobs": 4,
+    "random_state": 42,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1
+  },
+  "test_used_for_selection": false
+}

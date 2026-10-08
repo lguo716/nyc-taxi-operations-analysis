@@ -1,0 +1,354 @@
+{
+  "pid": 18036,
+  "verified_at": "2026-10-08T03:12:19.4666731Z",
+  "passed": true,
+  "checks": [
+    {
+      "check": "annual.trips",
+      "passed": true,
+      "actual": 48619345,
+      "expected": 48619345.0,
+      "tolerance": 0.0048619345
+    },
+    {
+      "check": "annual.fare_n",
+      "passed": true,
+      "actual": 44970845,
+      "expected": 44970845.0,
+      "tolerance": 0.0044970845
+    },
+    {
+      "check": "annual.fare",
+      "passed": true,
+      "actual": 20.073108393004468,
+      "expected": 20.0731083930044,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "annual.charge",
+      "passed": true,
+      "actual": 1299041865.200002,
+      "expected": 1299041865.2,
+      "tolerance": 0.12990418652000002
+    },
+    {
+      "check": "annual.duration",
+      "passed": true,
+      "actual": 17.260121654775457,
+      "expected": 17.2601216547754,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "annual.speed",
+      "passed": true,
+      "actual": 17.782907033471744,
+      "expected": 17.7829070334718,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "annual.tip_rate",
+      "passed": true,
+      "actual": 0.21891534658709838,
+      "expected": 0.218915346587098,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "annual.raw",
+      "passed": true,
+      "actual": 48722602,
+      "expected": 48722602.0,
+      "tolerance": 0.0048722602
+    },
+    {
+      "check": "annual.unknown",
+      "passed": true,
+      "actual": 103043,
+      "expected": 103043.0,
+      "tolerance": 1.03043E-05
+    },
+    {
+      "check": "january.trips",
+      "passed": true,
+      "actual": 3465683,
+      "expected": 3465683.0,
+      "tolerance": 0.0003465683
+    },
+    {
+      "check": "january.fare",
+      "passed": true,
+      "actual": 18.006247906418178,
+      "expected": 18.0062479064182,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "january.tip_rate",
+      "passed": true,
+      "actual": 0.22823750902352027,
+      "expected": 0.22823750902352,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "zone161.trips",
+      "passed": true,
+      "actual": 2089747,
+      "expected": 2089747.0,
+      "tolerance": 0.0002089747
+    },
+    {
+      "check": "zone161.fare",
+      "passed": true,
+      "actual": 16.90926396920861,
+      "expected": 16.9092639692086,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "forecast.actual",
+      "passed": true,
+      "actual": 4297383,
+      "expected": 4297383.0,
+      "tolerance": 0.00042973830000000003
+    },
+    {
+      "check": "forecast.predicted",
+      "passed": true,
+      "actual": 4260968.79940706,
+      "expected": 4260968.79940706,
+      "tolerance": 0.000426096879940706
+    },
+    {
+      "check": "forecast.wape",
+      "passed": true,
+      "actual": 0.16404376322164105,
+      "expected": 0.164043763221641,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "forecast.mae",
+      "passed": true,
+      "actual": 3.6027580815073463,
+      "expected": 3.60275808150734,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "forecast.rmse",
+      "passed": true,
+      "actual": 10.318835907349024,
+      "expected": 10.318835907349,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "forecast.model",
+      "passed": true,
+      "actual": "LightGBM（63叶）",
+      "expected": "LightGBM（63叶）"
+    },
+    {
+      "check": "budget500.budget",
+      "passed": true,
+      "actual": 500,
+      "expected": 500,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "budget500.served",
+      "passed": true,
+      "actual": 364942,
+      "expected": 364942.0,
+      "tolerance": 3.64942E-05
+    },
+    {
+      "check": "budget500.coverage",
+      "passed": true,
+      "actual": 0.08492191643146538,
+      "expected": 0.0849219164314654,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "budget500.idle",
+      "passed": true,
+      "actual": 7058,
+      "expected": 7058.0,
+      "tolerance": 7.058E-07
+    },
+    {
+      "check": "budget500.advantage",
+      "passed": true,
+      "actual": 1338,
+      "expected": 1338.0,
+      "tolerance": 1.338E-07
+    },
+    {
+      "check": "budget1000.budget",
+      "passed": true,
+      "actual": 1000,
+      "expected": 1000,
+      "tolerance": 1.0000000000000001E-07
+    },
+    {
+      "check": "budget1000.served",
+      "passed": true,
+      "actual": 706548,
+      "expected": 706548.0,
+      "tolerance": 7.06548E-05
+    },
+    {
+      "check": "budget1000.coverage",
+      "passed": true,
+      "actual": 0.1644135512240822,
+      "expected": 0.164413551224082,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "budget1000.idle",
+      "passed": true,
+      "actual": 37452,
+      "expected": 37452.0,
+      "tolerance": 3.7452E-06
+    },
+    {
+      "check": "budget1000.advantage",
+      "passed": true,
+      "actual": 3621,
+      "expected": 3621.0,
+      "tolerance": 3.621E-07
+    },
+    {
+      "check": "budget2000.budget",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000,
+      "tolerance": 2.0000000000000002E-07
+    },
+    {
+      "check": "budget2000.served",
+      "passed": true,
+      "actual": 1325757,
+      "expected": 1325757.0,
+      "tolerance": 0.0001325757
+    },
+    {
+      "check": "budget2000.coverage",
+      "passed": true,
+      "actual": 0.30850333796173157,
+      "expected": 0.308503337961732,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "budget2000.idle",
+      "passed": true,
+      "actual": 162243,
+      "expected": 162243.0,
+      "tolerance": 1.62243E-05
+    },
+    {
+      "check": "budget2000.advantage",
+      "passed": true,
+      "actual": 8384,
+      "expected": 8384.0,
+      "tolerance": 8.384E-07
+    },
+    {
+      "check": "counts.zones",
+      "passed": true,
+      "actual": 265,
+      "expected": 265,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "counts.dates",
+      "passed": true,
+      "actual": 365,
+      "expected": 365,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "counts.hours",
+      "passed": true,
+      "actual": 24,
+      "expected": 24,
+      "tolerance": 1E-07
+    },
+    {
+      "check": "counts.forecast_rows",
+      "passed": true,
+      "actual": 195672,
+      "expected": 195672.0,
+      "tolerance": 1.95672E-05
+    }
+  ],
+  "results": {
+    "annual": [
+      {
+        "[trips]": 48619345,
+        "[fare_n]": 44970845,
+        "[fare]": 20.073108393004468,
+        "[charge]": 1299041865.200002,
+        "[duration]": 17.260121654775457,
+        "[speed]": 17.782907033471744,
+        "[tip_rate]": 0.21891534658709838,
+        "[raw]": 48722602,
+        "[unknown]": 103043
+      }
+    ],
+    "january": [
+      {
+        "[trips]": 3465683,
+        "[fare]": 18.006247906418178,
+        "[tip_rate]": 0.22823750902352027
+      }
+    ],
+    "zone161": [
+      {
+        "[trips]": 2089747,
+        "[fare]": 16.90926396920861,
+        "[wape]": 0.12388184913128444
+      }
+    ],
+    "forecast": [
+      {
+        "[actual]": 4297383,
+        "[predicted]": 4260968.79940706,
+        "[wape]": 0.16404376322164105,
+        "[mae]": 3.6027580815073463,
+        "[rmse]": 10.318835907349024,
+        "[model]": "LightGBM（63叶）"
+      }
+    ],
+    "budget500": [
+      {
+        "[budget]": 500,
+        "[served]": 364942,
+        "[coverage]": 0.08492191643146538,
+        "[idle]": 7058,
+        "[advantage]": 1338
+      }
+    ],
+    "budget1000": [
+      {
+        "[budget]": 1000,
+        "[served]": 706548,
+        "[coverage]": 0.1644135512240822,
+        "[idle]": 37452,
+        "[advantage]": 3621
+      }
+    ],
+    "budget2000": [
+      {
+        "[budget]": 2000,
+        "[served]": 1325757,
+        "[coverage]": 0.30850333796173157,
+        "[idle]": 162243,
+        "[advantage]": 8384
+      }
+    ],
+    "counts": [
+      {
+        "[zones]": 265,
+        "[dates]": 365,
+        "[hours]": 24,
+        "[forecast_rows]": 195672,
+        "[simulation_rows]": 1761048
+      }
+    ]
+  }
+}

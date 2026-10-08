@@ -1,0 +1,1111 @@
+{
+  "generated_at": "2026-10-08T05:21:27.233587+00:00",
+  "project": "D:\\resume\\projects\\nyc-taxi-operations-analysis",
+  "scope": "Local source, reports, editable Power BI artifacts and retained predictions; raw source identities are in data/source_manifest.json.",
+  "files": [
+    {
+      "file": "data/processed/simulation_detail.parquet",
+      "bytes": 5595794,
+      "sha256": "6f700a296176005b50fbee202059edcf549c93a04dc5137a72232ceffd1195a7"
+    },
+    {
+      "file": "data/processed/test_predictions.parquet",
+      "bytes": 6390409,
+      "sha256": "d9307126ff9fdf902543b0ccf300c7b24309ab152810126cce2c7ba53e9d8be5"
+    },
+    {
+      "file": "data/processed/validation_predictions.parquet",
+      "bytes": 11474303,
+      "sha256": "1988365b236e772695065f9477dce1cd6031544dc738e1c4f352dbb820410555"
+    },
+    {
+      "file": "data/source_manifest.json",
+      "bytes": 30666,
+      "sha256": "f1fcfec1a7cf653eebd8b94993267e69dd9e15b04cbd335b59580b64d389ac29"
+    },
+    {
+      "file": "docs/learning_stage_01_business_and_data.md",
+      "bytes": 2550,
+      "sha256": "60e971fe8409caffa43798730ff28d8befcb2d523f684e12bbcc4831d0a78d6d"
+    },
+    {
+      "file": "docs/learning_stage_02_quality.md",
+      "bytes": 2638,
+      "sha256": "114f9cddb9ee32632a32fe6d78fb3c062b014a0678a0cf686121f249e52e821d"
+    },
+    {
+      "file": "docs/learning_stage_03_sql_model.md",
+      "bytes": 2150,
+      "sha256": "ba478aeaaea1ab57895ea076c0a3c97b4a8e7fa2fb166ea0d484e43153ef2260"
+    },
+    {
+      "file": "docs/learning_stage_04_operations.md",
+      "bytes": 2411,
+      "sha256": "7c48e5dbcdd63803a043fcd6c0e14efe812bef7533628eb02af0a5e76b96f99f"
+    },
+    {
+      "file": "docs/learning_stage_05_features.md",
+      "bytes": 2292,
+      "sha256": "662158a1171c195a946f3a705fd7555f018d1832db7c21adaa0e642e159be93f"
+    },
+    {
+      "file": "docs/learning_stage_06_validation.md",
+      "bytes": 2196,
+      "sha256": "d6a25788fa58dbe839fab7aea93f88e600fa929e5bbf17b081a641644fb7d8d8"
+    },
+    {
+      "file": "docs/learning_stage_07_evaluation.md",
+      "bytes": 2159,
+      "sha256": "f1852bf42651ef664d1656f5efa02c013459337eab877cd3be28f3ad3086ed45"
+    },
+    {
+      "file": "docs/learning_stage_08_dispatch.md",
+      "bytes": 2260,
+      "sha256": "08cefe6919431ab73058f749c593b329e942ed501bc366b6fff06c3c595e3899"
+    },
+    {
+      "file": "docs/learning_stage_09_powerbi_reproducibility.md",
+      "bytes": 2593,
+      "sha256": "35f1885e9d351aa56668de7f0b351312fa70d92fca85ad5ec04d1d32efc1578a"
+    },
+    {
+      "file": "docs/metric_definitions.md",
+      "bytes": 2663,
+      "sha256": "52c44aee3aead80a4e6771988f6a944654dd7db51d404d5f800d28c402c634d6"
+    },
+    {
+      "file": "docs/project_complete_walkthrough.md",
+      "bytes": 2875,
+      "sha256": "23e206794d897bc32c551851d0cf8f3ed1068a24b2326c8a1b264d0664c2f5af"
+    },
+    {
+      "file": "logs/all.log",
+      "bytes": 13471,
+      "sha256": "935804b8ff56f22b58dc0dddf7f822edee30d40f1ec544dd7640d045009b0a0b"
+    },
+    {
+      "file": "logs/download.log",
+      "bytes": 5561,
+      "sha256": "49e5b34e5c817d8d04b50e928a5cd16539c3957de0ad1a04027626f600982946"
+    },
+    {
+      "file": "logs/prepare.log",
+      "bytes": 983,
+      "sha256": "82a8cc331b9ac050c3deaa434dd4ce65325e96647d0d69b6c18e78258d9c6623"
+    },
+    {
+      "file": "logs/report.log",
+      "bytes": 1492,
+      "sha256": "d594190740e1b17fd4a846fb6876c3bd69802f8da3f3643e11164e6cb003bb6a"
+    },
+    {
+      "file": "logs/verify.log",
+      "bytes": 338,
+      "sha256": "0f803f8d0b1f17149ffdfaebb70c3aaf49ffdd33e46fba6874db98a53660b227"
+    },
+    {
+      "file": "models/feature_protocol.json",
+      "bytes": 1019,
+      "sha256": "5f02b79abf072c592e7691ac85c9459d3b863888adea79e02a8dcf8f204e0eac"
+    },
+    {
+      "file": "models/lgbm_31_final.txt",
+      "bytes": 8362139,
+      "sha256": "7930a6c1f51ee98d4a0efd40e0a8e4150b90f012f6bba319da993c7320964c02"
+    },
+    {
+      "file": "models/lgbm_31_validation_10.txt",
+      "bytes": 8337386,
+      "sha256": "5b1166f1eedb4c2b20b4f96f2d9366a20422e463e571c8ee860a9c2454a52f05"
+    },
+    {
+      "file": "models/lgbm_31_validation_11.txt",
+      "bytes": 8347474,
+      "sha256": "35e4ec778ff0cab24f2a22af40ec19e3029dad2b63e090f47b40c3f4a7538a48"
+    },
+    {
+      "file": "models/lgbm_31_validation_9.txt",
+      "bytes": 8325810,
+      "sha256": "d87221fe26f236bf88fe2b7a0d09c757b42dbc4fd4683cce6afc231355c9aa24"
+    },
+    {
+      "file": "models/lgbm_63_final.txt",
+      "bytes": 16376602,
+      "sha256": "3e8513cabb6407d2632159bd0e923bd7240974f22ca4b2a7c84dc97267b099af"
+    },
+    {
+      "file": "models/lgbm_63_validation_10.txt",
+      "bytes": 16298865,
+      "sha256": "ddd8096769275493fb9779810d099af51b08903fec427195a7525d1ebe59f358"
+    },
+    {
+      "file": "models/lgbm_63_validation_11.txt",
+      "bytes": 16383783,
+      "sha256": "ab180d4e846e565dfb839dfc1baf71f252d4f543b1c8503c67f7798710e5eaf3"
+    },
+    {
+      "file": "models/lgbm_63_validation_9.txt",
+      "bytes": 16246062,
+      "sha256": "35732b9aa140e5b76c10a6b7b9de135e8274767cf141f7ce36c8b27f15a73302"
+    },
+    {
+      "file": "models/model_selection.json",
+      "bytes": 1579,
+      "sha256": "3dac320396bff037ce1d04a0e906dae47f31cecb6f040e1ff92298a5ede42383"
+    },
+    {
+      "file": "models/training_config.json",
+      "bytes": 1579,
+      "sha256": "3dac320396bff037ce1d04a0e906dae47f31cecb6f040e1ff92298a5ede42383"
+    },
+    {
+      "file": "notebooks/01_operations.ipynb",
+      "bytes": 143007,
+      "sha256": "f1a7436cf7cc67e93f794a2930f685f371bb62dd73c18e7101cdca930ca17bd6"
+    },
+    {
+      "file": "notebooks/02_forecasting.ipynb",
+      "bytes": 15078,
+      "sha256": "21f1a23cf7a7cd892d0deb3c5e05201a918bf77afb20b2e9c3865e42b119bcf6"
+    },
+    {
+      "file": "notebooks/03_dispatch.ipynb",
+      "bytes": 214439,
+      "sha256": "85a4da32712e2725007bf69bc14749241a88f8a9a1f0979d98dfae57de1a2c11"
+    },
+    {
+      "file": "NOTICE.md",
+      "bytes": 2082,
+      "sha256": "31f137f556d1bd7722582b437689f949d0de8eacdb188bf3be2b222920a60132"
+    },
+    {
+      "file": "powerbi/budget1000_interaction.txt",
+      "bytes": 454,
+      "sha256": "02db93f482084940d0f36b5467c2f3804acd5cdc1cf30ba4299f75cffe781ae4"
+    },
+    {
+      "file": "powerbi/budget2000_interaction.txt",
+      "bytes": 696,
+      "sha256": "7fd0b792ac1379c1dea94f07677a0b83b7e2e4487f913f28fa02d86bf1b94be5"
+    },
+    {
+      "file": "powerbi/budget500_interaction.txt",
+      "bytes": 691,
+      "sha256": "cf3b3cf0c83c15c388c9e4d0d06ffc420426b1e1603eb20d7776d1a67e2703f4"
+    },
+    {
+      "file": "powerbi/build_dashboard.py",
+      "bytes": 25092,
+      "sha256": "4daed955da67a3a135318612a76d6f45002c0db26d157ffa4321a4d3290a6ca4"
+    },
+    {
+      "file": "powerbi/capture_pages.mjs",
+      "bytes": 1380,
+      "sha256": "9879c4f31cec32acc29c6bd1ccb90a0f6f2b76e2efad9b8db03a36aa95d4d797"
+    },
+    {
+      "file": "powerbi/desktop_final_state.json",
+      "bytes": 317,
+      "sha256": "a682ab38d05f70b1d3a76245315a17205e548f43772aae1658afcc19dc344ad9"
+    },
+    {
+      "file": "powerbi/desktop_verification.json",
+      "bytes": 8270,
+      "sha256": "944a025e482741f239f827294ffb2df07d1038df3314e381426664daf6a5d288"
+    },
+    {
+      "file": "powerbi/map_interaction.txt",
+      "bytes": 595,
+      "sha256": "2b6105902362d2b66ab9bbc957c08b4e5cdbf4a5ef09c2b4586a9f21e239f6be"
+    },
+    {
+      "file": "powerbi/measures.dax",
+      "bytes": 2735,
+      "sha256": "2ec27ab7a6e143aa9141cccc2b1873b2784909ef7bdd80a0444b1795808a96c1"
+    },
+    {
+      "file": "powerbi/nyc_taxi_operations.pbix",
+      "bytes": 64280427,
+      "sha256": "412318a5f9b9c54a01ca1131c9cbc8807f7413460c027335ba1accb5dc314866"
+    },
+    {
+      "file": "powerbi/package.json",
+      "bytes": 233,
+      "sha256": "53ece5c93df702894ce6049adc4ce766d062beb4229c47335585798e33510444"
+    },
+    {
+      "file": "powerbi/pbix_january_interaction.txt",
+      "bytes": 265,
+      "sha256": "c8340ae6d3645c2cbd5fa220942fb5af8a88e2f169cd42c56a7000a816a9e975"
+    },
+    {
+      "file": "powerbi/pnpm-lock.yaml",
+      "bytes": 5313,
+      "sha256": "6224981573dfb287569cb0d851e48442797bbb6463fa2294b979b7f775c0f8ff"
+    },
+    {
+      "file": "powerbi/README.md",
+      "bytes": 3302,
+      "sha256": "c152b8f51904695f55d0712363344cac330ff82ce77da8accaf547434b9d0819"
+    },
+    {
+      "file": "powerbi/taxi-theme.json",
+      "bytes": 221,
+      "sha256": "62ee209e45964d166de1d37a5ecfb908628d3eb189054eec0c7aca3462cfab75"
+    },
+    {
+      "file": "powerbi/Taxi.pbip",
+      "bytes": 283,
+      "sha256": "0edfd195873540eeeea68792047d605042af95d6b1f8f5f7e4cf86686b7ab6c9"
+    },
+    {
+      "file": "powerbi/Taxi.Report/.platform",
+      "bytes": 318,
+      "sha256": "36464c81686e0cff8b088b255532eb9ae47a386966a975cc466b64265143d9e7"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/page.json",
+      "bytes": 2184,
+      "sha256": "ef38c8d810ac9dcd7cf18407dbd6bc4cdbdbb3a42f65ec13b05e0dcd980d496e"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/borough_slicer/visual.json",
+      "bytes": 4129,
+      "sha256": "ed8fcb9d99c38def8b47f7b5368c67cd9cf595e6936c9001e89cd598fb4db351"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/budget_slicer/visual.json",
+      "bytes": 5577,
+      "sha256": "01315652d40f4fe642606a639883938cb9006cf067b2eccc0040bcf7b15ad7e7"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/daily/visual.json",
+      "bytes": 5143,
+      "sha256": "d262546dd609f5457e9764002e9b68594b86690522028b1878078fce1765859f"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/footnote/visual.json",
+      "bytes": 3424,
+      "sha256": "0379701c33de2a5ff5d85ccb20bc945512743f7fb28de701a12684ecd88cc0f7"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/heading/visual.json",
+      "bytes": 3275,
+      "sha256": "7f2133e3dfde7ae239cf19835f7654820b9b62ecd06a9276d3b2a6d842ad6edb"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/kpi_0/visual.json",
+      "bytes": 4339,
+      "sha256": "eb5f7366044359c35fee9373fca870ad6da013918d0a575e9cb7b584634b6748"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/kpi_1/visual.json",
+      "bytes": 4340,
+      "sha256": "52962cafec1f82bd3d232f427739eaa6e6ecfb1ece57079b24d2ba1828d1e203"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/kpi_2/visual.json",
+      "bytes": 4322,
+      "sha256": "f96aa7d55598055fe1c3217cb6bfa5989bcdb0a5d37d8e38b4152598bab5f437"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/kpi_3/visual.json",
+      "bytes": 4356,
+      "sha256": "1d4af4af5a15e334eb57cbbb765867874af691afe17a92652b67e1ae7d6766df"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/limits/visual.json",
+      "bytes": 3418,
+      "sha256": "4475255fc29157f104bf0f09f9092a9cdcd8a9c9f68ef59a3a98a1e545658942"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/simulation/visual.json",
+      "bytes": 6820,
+      "sha256": "3f01a4934ec949401b3170626fd7e1fb09c73b418c4bdafc81548979d6fa6aa7"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/strategies/visual.json",
+      "bytes": 3937,
+      "sha256": "385da7c479f0fd35f15a50e03a85ab3bbcb3210570661fc50efe7c86052aef98"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/subtitle/visual.json",
+      "bytes": 3383,
+      "sha256": "8310a6ad4c55ef13cbf01c8dd1535914ef4b669a5ff29f7dfc0bb1f08fa93010"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/dispatch/visuals/zone_slicer/visual.json",
+      "bytes": 4134,
+      "sha256": "d72781023d9e989356748f193269e550a5d61dc7a193ddf25489c49980066940"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/page.json",
+      "bytes": 2190,
+      "sha256": "81f6ac4fbabc9148a8b7af6336a4d90c766ced5052498efc70e3c79e42e5c1bd"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/borough_slicer/visual.json",
+      "bytes": 4129,
+      "sha256": "ed8fcb9d99c38def8b47f7b5368c67cd9cf595e6936c9001e89cd598fb4db351"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/comparison/visual.json",
+      "bytes": 4340,
+      "sha256": "35ebe2ca4cc83f004eeefa43c16e2cd27a1451a9a301217ffa2d559bf4e70ec0"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/footnote/visual.json",
+      "bytes": 3430,
+      "sha256": "6d9b51c4aae9fb072401dd58a9cfac22ab7e8334cffe82ab42ab83b50289f73e"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/forecast_map/visual.json",
+      "bytes": 7953,
+      "sha256": "8c422289327b0fb4edbfe417427f7944d1ca3054659b8bec03f8b5520b5166ab"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/heading/visual.json",
+      "bytes": 3281,
+      "sha256": "1a04dc3cd86b44949f00b0c4407d4798afc9afc04a214426263c21078244f6cf"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/hour_error/visual.json",
+      "bytes": 4341,
+      "sha256": "4793aa1cdb94f24506f76b124284f39be1d964da30288ce9fe995d0aac0fd31a"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/kpi_0/visual.json",
+      "bytes": 4318,
+      "sha256": "13a1fec088383f160401295ad77e7f82ea0ca7b81f49d2a11679c8e25dd8141c"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/kpi_1/visual.json",
+      "bytes": 4308,
+      "sha256": "b651fb767c65d8cf2d749711c1da66b581c1aa26a722c77ea6caa1a8bbae5fd9"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/kpi_2/visual.json",
+      "bytes": 4319,
+      "sha256": "7b5e19a9e611fddaceeaa5c5472ae8ea04a0e08d8d0504cc1d440109f29ae47d"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/kpi_3/visual.json",
+      "bytes": 4317,
+      "sha256": "589e870555c8e591565e0221e63f4483d6f89961b82512d540fe7f323139ff39"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/subtitle/visual.json",
+      "bytes": 3378,
+      "sha256": "42da14177f12e7b2de0f16eda7d2b18d16e77ea1778533b204d7efd8e01490e5"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/trend/visual.json",
+      "bytes": 4822,
+      "sha256": "6475e9ad9b334fcb7e2f7f0163023d92c0d47383b5f8b0bfd661b3257284d48b"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/forecast/visuals/zone_slicer/visual.json",
+      "bytes": 4134,
+      "sha256": "d72781023d9e989356748f193269e550a5d61dc7a193ddf25489c49980066940"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/page.json",
+      "bytes": 778,
+      "sha256": "a4c407eee5e6e10754fb8c0b4cd3ebc48ad47a5a73b94c4c399b6b0ba7e785ae"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/borough_slicer/visual.json",
+      "bytes": 4129,
+      "sha256": "ed8fcb9d99c38def8b47f7b5368c67cd9cf595e6936c9001e89cd598fb4db351"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/days/visual.json",
+      "bytes": 3918,
+      "sha256": "4076f8db1a6437e56c0b9c21fbab691f595926b7c5d9c05db129a165f667c801"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/footnote/visual.json",
+      "bytes": 3427,
+      "sha256": "e9910f5addc8fc5f425254f7bbd16d21dbffebeb66c0ca3a12eaafdaca906df1"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/heading/visual.json",
+      "bytes": 3275,
+      "sha256": "82a403869d4a73934d522adf66c1671031aaeba61dbafff0263fce6d7a55e7e3"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/hours/visual.json",
+      "bytes": 4287,
+      "sha256": "869c653863f4d8811513c10324899cd6743c4c8db303529faaaf810b2a02ffe9"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/kpi_0/visual.json",
+      "bytes": 4297,
+      "sha256": "afdb4a37edfe33d119fbb9c27625f499359aae959eb8dbc6ed5589273635008f"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/kpi_1/visual.json",
+      "bytes": 4295,
+      "sha256": "6f208a911f5d8cb8cf7ea726504a2527e8f22f5513bab820bd388eaa1393a01b"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/kpi_2/visual.json",
+      "bytes": 4325,
+      "sha256": "437b41b2fcba851a6dd71462ae9e4af3bbb3311c339642608d13c13f35c348cb"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/kpi_3/visual.json",
+      "bytes": 4311,
+      "sha256": "41dbdf2da58f7dcc0c11e4c4787b21f5ae496706158399f4e871d2a96e99bcc2"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/month_slicer/visual.json",
+      "bytes": 4140,
+      "sha256": "0d17bf0eb66e76e3ab98a2876d1a8943270f2ac0f04a3761f8cdcfef930ea7b8"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/monthly/visual.json",
+      "bytes": 4294,
+      "sha256": "ce9754f3dcdd0fc8d736e9b5fe7376059f5462418a7a3917fe4a9be7813eadbb"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/subtitle/visual.json",
+      "bytes": 3363,
+      "sha256": "cd38907f16b0ebe76826bb4b6ec433a2b89cf10624e3a8f70d88f4076ca7e8d1"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/weather/visual.json",
+      "bytes": 3930,
+      "sha256": "981b66ea04a6d5f3b91daa34bfff3d8a65c1c61fa7648f01f7ff1ba4f70d961c"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/overview/visuals/zone_slicer/visual.json",
+      "bytes": 4134,
+      "sha256": "d72781023d9e989356748f193269e550a5d61dc7a193ddf25489c49980066940"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/pages.json",
+      "bytes": 250,
+      "sha256": "89dfcdd118a13cea127924880f925d0155785ac7254caf130acdd47f2e97c100"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/page.json",
+      "bytes": 780,
+      "sha256": "6e75124969dd75e4016f471d6a643ca99f3bdd223b3833a86735bd7654495220"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/borough_slicer/visual.json",
+      "bytes": 4129,
+      "sha256": "ed8fcb9d99c38def8b47f7b5368c67cd9cf595e6936c9001e89cd598fb4db351"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/footnote/visual.json",
+      "bytes": 3436,
+      "sha256": "8eae0df06362046086b584c24fbc236259007fce2c4a2ca064e5dd57fe7a3845"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/heading/visual.json",
+      "bytes": 3278,
+      "sha256": "d2fe79747f2b91ae967e2e81336c9f3c0b0ca5b2f09dace140f4fe101a8099e5"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/kpi_0/visual.json",
+      "bytes": 4312,
+      "sha256": "767a4646f12cc610ee28a811a20949f703a053fab5f114e88846d734d427a73c"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/kpi_1/visual.json",
+      "bytes": 4312,
+      "sha256": "729a1a3aa2104f6701d0a57f8db58faf6e778dabe7e98fa6cfdf74e0cb5b180d"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/kpi_2/visual.json",
+      "bytes": 4316,
+      "sha256": "42e1aa05de2f183851f4be3c5479f7b6aca7924db160f54cfdb254f61c6a2696"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/kpi_3/visual.json",
+      "bytes": 4326,
+      "sha256": "969035117ec67870cb06b27bf2b3d2066b9e3181a04bfe2db154de81797b4a2e"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/month_slicer/visual.json",
+      "bytes": 4140,
+      "sha256": "0d17bf0eb66e76e3ab98a2876d1a8943270f2ac0f04a3761f8cdcfef930ea7b8"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/quality_table/visual.json",
+      "bytes": 6404,
+      "sha256": "b93343f31ff2fe4b929ddf19f44d7b351abb38fa1d89b6bb459c170ee04e6511"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/regions_table/visual.json",
+      "bytes": 10691,
+      "sha256": "55ba6e316ee842accbf546339949cfda4ff362591e6624be097ed67b66f489dc"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/subtitle/visual.json",
+      "bytes": 3370,
+      "sha256": "4804921843316e1f13fc2867a3172163d98b86396ec5988ba4995fd068a10cee"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/zone_map/visual.json",
+      "bytes": 8930,
+      "sha256": "3925ea06ecaa2ee9b6af376c62a18f79ef375c31c4722b1ea5415a192a01087f"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/pages/regions/visuals/zone_slicer/visual.json",
+      "bytes": 4134,
+      "sha256": "d72781023d9e989356748f193269e550a5d61dc7a193ddf25489c49980066940"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/report.json",
+      "bytes": 1472,
+      "sha256": "5a1850e62f9b606f517ba85773724d0630cabc4f9e724ae42a32c894786b0d57"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition/version.json",
+      "bytes": 152,
+      "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+    },
+    {
+      "file": "powerbi/Taxi.Report/definition.pbir",
+      "bytes": 238,
+      "sha256": "075ecf6d397fde5793291f10b29b00b43be8f1dd9e609718af1bef9e3209bbaa"
+    },
+    {
+      "file": "powerbi/Taxi.Report/StaticResources/RegisteredResources/Taxi_Portfolio.json",
+      "bytes": 226,
+      "sha256": "504b193176f5dd60a5e0cca6bd7790c252e6b0d926076203b70572ec250b9ef7"
+    },
+    {
+      "file": "powerbi/Taxi.Report/StaticResources/RegisteredResources/taxi_zones.geojson",
+      "bytes": 1696807,
+      "sha256": "e623a4f919ebd400cd16bac4c01971b8b7e64b29e4e4da4053ef0a8bc2feb8ec"
+    },
+    {
+      "file": "powerbi/Taxi.Report/StaticResources/RegisteredResources/taxi_zones7012794816364333.geojson",
+      "bytes": 1696807,
+      "sha256": "e623a4f919ebd400cd16bac4c01971b8b7e64b29e4e4da4053ef0a8bc2feb8ec"
+    },
+    {
+      "file": "powerbi/Taxi.Report/StaticResources/SharedResources/BaseThemes/Fluent2-CY26SU09.json",
+      "bytes": 99684,
+      "sha256": "eb556359c12fe93c43047b494aa086e6f832a6bac211e6375b742c35ee784c78"
+    },
+    {
+      "file": "powerbi/Taxi.Report/StaticResources/SharedResources/Shapemaps/usa.states.topo.json",
+      "bytes": 120111,
+      "sha256": "3d34961590975f2c728bd60f8cc1522eb542301ee5dfbd5dbd0cca03b0bb9b22"
+    },
+    {
+      "file": "powerbi/Taxi.SemanticModel/.platform",
+      "bytes": 325,
+      "sha256": "7943d8dca8a4f4a9d93148d8091560e5ddfb76b112a43d36af62e542f1660082"
+    },
+    {
+      "file": "powerbi/Taxi.SemanticModel/definition.pbism",
+      "bytes": 72,
+      "sha256": "cf2b95886498d7834e3388283f10f1c45f6b6fa080417ba106eb3634391767ea"
+    },
+    {
+      "file": "powerbi/Taxi.SemanticModel/diagramLayout.json",
+      "bytes": 5082,
+      "sha256": "c86c4d1e7bba8718a55b39edec2821832c70d4d23853206810a832c2ffdd2cd4"
+    },
+    {
+      "file": "powerbi/Taxi.SemanticModel/model.bim",
+      "bytes": 93959,
+      "sha256": "1ebd025786f273ae0c0f7b9401158bdb0674b9df4fbc01753a5c7e7a6b4a2eba"
+    },
+    {
+      "file": "powerbi/taxi_zones.geojson",
+      "bytes": 1696807,
+      "sha256": "e623a4f919ebd400cd16bac4c01971b8b7e64b29e4e4da4053ef0a8bc2feb8ec"
+    },
+    {
+      "file": "powerbi/ui_verification.json",
+      "bytes": 5773,
+      "sha256": "04fd6f66eacbe1bc82666d5046d2f6b9c2bd8b49075802c21a532d20a2b19dc9"
+    },
+    {
+      "file": "powerbi/validation.json",
+      "bytes": 6178,
+      "sha256": "59eaa4e97e0602a123dd4890165ea7ecba3577911bbcac891e061d7b271d1c0f"
+    },
+    {
+      "file": "powerbi/verify_desktop.ps1",
+      "bytes": 7394,
+      "sha256": "51121d5b944c930169f0417f1172ec0ac0dc4fef465def9bb15934a1898c9675"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4593,
+      "sha256": "9ad5cf2cbd4481656db9a68cc16d5b2d22de4ce551415e7eb7777d75b7a54e4e"
+    },
+    {
+      "file": "reports/artifact_verification.json",
+      "bytes": 8445,
+      "sha256": "9b7e4dd988a1d30ceb7b03baef4d96e94749c2c28c1eab2cf41bca6d9be16797"
+    },
+    {
+      "file": "reports/figures/01_monthly_demand.png",
+      "bytes": 158896,
+      "sha256": "631f428db92cf2fa7a0f060eb597ec7eef723070789154aed323ba27071a18a2"
+    },
+    {
+      "file": "reports/figures/02_weekday_hour.png",
+      "bytes": 85452,
+      "sha256": "613f20d073ceab39a26352720325a4437065d967b2daf359c530e971d5fb592b"
+    },
+    {
+      "file": "reports/figures/03_zone_map.png",
+      "bytes": 424280,
+      "sha256": "1b69a74aca1630f7262428619540ab5c2f32ceac3a8337cab714bb1197291fae"
+    },
+    {
+      "file": "reports/figures/04_zone_efficiency.png",
+      "bytes": 148840,
+      "sha256": "55f467d9ccc4658a3890305c4e74e1cecbf27f49ea2ff330b928f7205d267ffb"
+    },
+    {
+      "file": "reports/figures/05_weather_comparison.png",
+      "bytes": 92269,
+      "sha256": "34ce3edc757f449edfa56a2e0a8bfcbdfa36268f2d49d45e28c648860236d257"
+    },
+    {
+      "file": "reports/figures/06_rolling_validation.png",
+      "bytes": 81115,
+      "sha256": "9c41baa2dde692016eff1bd365ed71c709065763817ac2fa40877f2a950c7723"
+    },
+    {
+      "file": "reports/figures/07_test_comparison.png",
+      "bytes": 82581,
+      "sha256": "61cac1e810b511a5674b43d1ea11cc877f385b390a06fc90baa0cc1a4d8ffd58"
+    },
+    {
+      "file": "reports/figures/08_test_trend.png",
+      "bytes": 207370,
+      "sha256": "0e2c7ce121e0b3a29ffbfd56034317179defb0cde9d4791b2a46192fc624f674"
+    },
+    {
+      "file": "reports/figures/09_dispatch_simulation.png",
+      "bytes": 152551,
+      "sha256": "7d2f17b07589c21871c97853532b6ad6a02b9b7d09bb454a75a565f3ebe81bd9"
+    },
+    {
+      "file": "reports/figures/powerbi/report_dispatch.png",
+      "bytes": 393675,
+      "sha256": "0341e1caecd5cae6da07d407c3887bb7386bd225a481406a5e83167e655ee7a0"
+    },
+    {
+      "file": "reports/figures/powerbi/report_forecast.png",
+      "bytes": 380902,
+      "sha256": "65141e69c4918bc66479ce8b16cc3b5c26450d2d9e4228a00315c51bbd44db11"
+    },
+    {
+      "file": "reports/figures/powerbi/report_overview.png",
+      "bytes": 278496,
+      "sha256": "707fe2d4172abd77c8d0d25ca3fd1614a94105b8738db3738d13efa8f91d5d51"
+    },
+    {
+      "file": "reports/figures/powerbi/report_regions.png",
+      "bytes": 550138,
+      "sha256": "c2ce867e65f5e3a93cc50d31178aa534438366a8a59686955dac2fafe5c66051"
+    },
+    {
+      "file": "reports/findings.md",
+      "bytes": 9202,
+      "sha256": "f5dfdadfc0f09eba71b1def20e4f5f4e3d3e59e256349c0c6661cb474d762c04"
+    },
+    {
+      "file": "reports/interview_guide.md",
+      "bytes": 1968,
+      "sha256": "60c308e57a6ad4628c70edf656003685ae79954941d12af51c541fa500e6284d"
+    },
+    {
+      "file": "reports/notebook_verification.json",
+      "bytes": 473,
+      "sha256": "8bb2a2db6952cb1f21e4699895a63fd526c16ee4f98efd1a89dff310c0f0b239"
+    },
+    {
+      "file": "reports/project_acceptance.md",
+      "bytes": 6739,
+      "sha256": "29600e00f37aa781d581dff39df1ced1a5617cf103b037c00dba4002ba1bbff9"
+    },
+    {
+      "file": "reports/reconciliation.json",
+      "bytes": 314,
+      "sha256": "48264a10dc468d37d4acec0dfa64f3426799234a2c2d391b7a83e2e4d8fc5b20"
+    },
+    {
+      "file": "reports/reproducibility_reference.json",
+      "bytes": 842,
+      "sha256": "b5a7a93cd14219caa057c2e1dd1a66e4df48ad508abb17b0b1f84ff038f0331c"
+    },
+    {
+      "file": "reports/reproducibility_verification.json",
+      "bytes": 2099,
+      "sha256": "42c306299adec2f09b984d149c20e72eb13b122ebd6ce40a918663f616e590c3"
+    },
+    {
+      "file": "reports/resume_bullets.md",
+      "bytes": 1010,
+      "sha256": "00e402f78d39b8da95b23a7b3f014522471bc5892e7ec57d6f7c0848bda0bb19"
+    },
+    {
+      "file": "reports/stage_timings.json",
+      "bytes": 908,
+      "sha256": "dda782fbd3c3dbfa518faea754962cf53f438b1e51898cae7cdc9aaa640f3517"
+    },
+    {
+      "file": "reports/tables/borough_metrics.csv",
+      "bytes": 1771,
+      "sha256": "7721cfebd5a11d0714627bed373e0288e3bb418a3bf525aa8cfb0fe8806e1e54"
+    },
+    {
+      "file": "reports/tables/daily_metrics.csv",
+      "bytes": 106419,
+      "sha256": "e4bc38a5f4f1b6dd2d97ee7243f7db6d1cca01c25647cf40f991acbabc61a033"
+    },
+    {
+      "file": "reports/tables/data_quality_monthly.csv",
+      "bytes": 1579,
+      "sha256": "ad9764e095acb87b1d67d17f134ecca0a8ea2c129f78cdc88db5c07674674ec1"
+    },
+    {
+      "file": "reports/tables/day_type_summary.csv",
+      "bytes": 281,
+      "sha256": "4b02c157935736bd3991c700f17c9ad27f831cdc4cde0e0591acb351cd337f4d"
+    },
+    {
+      "file": "reports/tables/dim_budget.csv",
+      "bytes": 103,
+      "sha256": "972d31af5ac84981248728265daf84108880f10856b2d14fe9800c99d71b4aa9"
+    },
+    {
+      "file": "reports/tables/dim_date.csv",
+      "bytes": 24289,
+      "sha256": "7bba49454a716544992649bc277b9902eb3039ab1ea3e56b2a5c888b54ec7dec"
+    },
+    {
+      "file": "reports/tables/dim_hour.csv",
+      "bytes": 250,
+      "sha256": "41aa5bd2837f2d92a02bb465d050eb9ec7bbd3199573e271326181e735c928d9"
+    },
+    {
+      "file": "reports/tables/dim_model.csv",
+      "bytes": 192,
+      "sha256": "3f6fa5b87721e2a4af00a7f5b64618e89584d3f62f3130b8792fa4033e4418ce"
+    },
+    {
+      "file": "reports/tables/dim_strategy.csv",
+      "bytes": 119,
+      "sha256": "91a889575746460ede94ebe9c2e3b3fc86b5d792089f54fa8263824b0fe2ab71"
+    },
+    {
+      "file": "reports/tables/dim_zone.csv",
+      "bytes": 17906,
+      "sha256": "c0ed2775db132c286ce62fd1b0685147c807ef1353edc4a1557dd82803a9ec90"
+    },
+    {
+      "file": "reports/tables/fact_zone_hour.csv",
+      "bytes": 129602204,
+      "sha256": "c31854e7bd818ed5785b57c100eb3e9dacd7b89629db1f13a49e03f151a8502c"
+    },
+    {
+      "file": "reports/tables/feature_coverage.csv",
+      "bytes": 389,
+      "sha256": "7d6c47c8187dc63006b794a194f79746379e25e4dfec8a79b3748725f9224bfd"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_31_10.csv",
+      "bytes": 602,
+      "sha256": "1d0484566a7e7184db8c860c77da52f30af815eb389b4f6342356a7aeff904ad"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_31_11.csv",
+      "bytes": 601,
+      "sha256": "7551edee8036c9eb9a37db2aba5d082ac5f0bd553ab46c7c915de4592f2d704d"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_31_9.csv",
+      "bytes": 581,
+      "sha256": "bcf7873ee2dc187fa436efd6a494c34c8346a8b71276be5f9fd30845b98e77db"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_31_final.csv",
+      "bytes": 550,
+      "sha256": "242f81bdcb0d4627c5fd009e149f781079e9de668286503d3636c93ab16ff360"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_63_10.csv",
+      "bytes": 602,
+      "sha256": "c36139e83215ec7c3e1c1b5d1183396e4181160575ca42f7495fed8e0c0b117e"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_63_11.csv",
+      "bytes": 602,
+      "sha256": "b14f80a8a8769d5fc07b6048cca096bd4d6185d2e4989240b1f2eede8dd70b5b"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_63_9.csv",
+      "bytes": 588,
+      "sha256": "004a828d1a1a4d96958a6adadb114d9b25b4d483a445fc8cd852c7dad7c80d43"
+    },
+    {
+      "file": "reports/tables/feature_importance_lgbm_63_final.csv",
+      "bytes": 550,
+      "sha256": "d2849299d0e56f7c927fcef93a0341a66dff51d96dad47cf29aba776f4d00d9c"
+    },
+    {
+      "file": "reports/tables/forecast_hourly.csv",
+      "bytes": 14412508,
+      "sha256": "7da9a0c32e414728a191c884b099f0fb0aa08e0e727985554ab31276bb123415"
+    },
+    {
+      "file": "reports/tables/hourly_profile.csv",
+      "bytes": 18783,
+      "sha256": "44fc1337287e770d40cf06297051d0df65d7e9f8d128bca81772bd979a541a55"
+    },
+    {
+      "file": "reports/tables/kpi_summary.csv",
+      "bytes": 496,
+      "sha256": "6a4494107404b82f6617c1667714afc76e6542a2839d3ebf91503f14f3234def"
+    },
+    {
+      "file": "reports/tables/monthly_metrics.csv",
+      "bytes": 3416,
+      "sha256": "c1e2d093a5f6ab535c52705d9b1ff0074e4aadd5e8e05535c13ea25f104ed39d"
+    },
+    {
+      "file": "reports/tables/powerbi_large_tables.zip",
+      "bytes": 56804062,
+      "sha256": "cecc88fb7228b3e391a17fe23262155e53fed4bdc72298c6537da233b558cff4"
+    },
+    {
+      "file": "reports/tables/route_monthly.csv",
+      "bytes": 15903881,
+      "sha256": "d173081e9c8323b72c2342fece1dad7fed0e2bb7ee9dc501ba0b3eb62792e363"
+    },
+    {
+      "file": "reports/tables/route_top_annual.csv",
+      "bytes": 1035,
+      "sha256": "8f979b72067a48f9f4927b34c73a2bac50dfb57d96732b33006ff51814d767ba"
+    },
+    {
+      "file": "reports/tables/selected_error_borough.csv",
+      "bytes": 1200,
+      "sha256": "62b7e4bdaf7f4eaf90003075c8ea2a81fd0d2c89d39fac8bfbc72c3e7a56aafd"
+    },
+    {
+      "file": "reports/tables/selected_error_hour_top.csv",
+      "bytes": 973,
+      "sha256": "15142c369330891273f3bbdd6395a806dd39f11a7b5ba42e80818af0922a7df4"
+    },
+    {
+      "file": "reports/tables/selected_error_zone_top.csv",
+      "bytes": 1031,
+      "sha256": "1040f0979d745cc515ebba9054734fd6f6e6bde6e4069e6de8722fd6f6853c9c"
+    },
+    {
+      "file": "reports/tables/simulation_daily.csv",
+      "bytes": 21360,
+      "sha256": "ef9f64962b5fceffb6b8923389a13a0060c939c06be02e49054a55f3c79af3d9"
+    },
+    {
+      "file": "reports/tables/simulation_hourly.csv",
+      "bytes": 109018533,
+      "sha256": "cb42a4f41268a2f5673a3c1ac0f6f290d8cdafccd70d3c90207951c713df6f0c"
+    },
+    {
+      "file": "reports/tables/simulation_summary.csv",
+      "bytes": 1068,
+      "sha256": "10aa26c2b2f6aca142706d6cec63c0120d7769e208625f5598098e74f490d60c"
+    },
+    {
+      "file": "reports/tables/simulation_zone.csv",
+      "bytes": 140542,
+      "sha256": "d966635da4357324ae470df5707da72247f0bb53234396f02112fb7351a07c24"
+    },
+    {
+      "file": "reports/tables/sql_monthly_verification.csv",
+      "bytes": 991,
+      "sha256": "8b3eaef354b815a80665fabbb7bebda24ee8cb631cb4e6f6729d079e8e335e85"
+    },
+    {
+      "file": "reports/tables/test_daily_metrics.csv",
+      "bytes": 25048,
+      "sha256": "b8b4479b6efa5d0ebdcf1172adff27d085b6086520dcd76fdf8f2f16240d0c41"
+    },
+    {
+      "file": "reports/tables/test_errors_by_group.csv",
+      "bytes": 24021,
+      "sha256": "5a821ab6ab84ec94b86696cdea57524ba744a89bf1b0fcf80a36374cc79ad713"
+    },
+    {
+      "file": "reports/tables/test_metrics.csv",
+      "bytes": 962,
+      "sha256": "58aab4383f2af83d88d363ec15c689a87504295384d8b4da6e6a662dafe309fc"
+    },
+    {
+      "file": "reports/tables/test_zone_metrics.csv",
+      "bytes": 193062,
+      "sha256": "03159fc8a111e550bbb209f5e940c358567c20e120364f86b8d1710d7dc45fb6"
+    },
+    {
+      "file": "reports/tables/validation_metrics.csv",
+      "bytes": 2717,
+      "sha256": "7d6b22380720f350731c51b12dfeb545be8ddb3dbc33098f645130a40e1f25ab"
+    },
+    {
+      "file": "reports/tables/weather_strata.csv",
+      "bytes": 7576,
+      "sha256": "6e4ecd3b74825f3c3bc1ee348364dc772cf50b8e6e3849d8f03e6cc340d254a0"
+    },
+    {
+      "file": "reports/tables/weekday_hour.csv",
+      "bytes": 42347,
+      "sha256": "8c2070922aa6c9137f3131d4d79265585cb821fc29e951d88828b8c1f4788be3"
+    },
+    {
+      "file": "reports/tables/zone_metrics.csv",
+      "bytes": 74585,
+      "sha256": "84a6b04ad10531d832fec631563c80e6bbc2cd1fbf79138ec4f83385cd0b724a"
+    },
+    {
+      "file": "reports/test_results.xml",
+      "bytes": 2615,
+      "sha256": "5e3d417f9ba30d264658638de1ee82ef9aef41bbb2b296ca547b0fcd2c615e00"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 1171,
+      "sha256": "15f8d2da283be9bf294ebe01657d64c551fe9f6e61294cb59ae3394b03e4496d"
+    },
+    {
+      "file": "run_config.json",
+      "bytes": 275,
+      "sha256": "0d9a21435f3405e0e4ff9d8892ffc7d027bee3d6723368dcf4577e798ac9f3b1"
+    },
+    {
+      "file": "sql/01_trip_model.sql",
+      "bytes": 2952,
+      "sha256": "3288e37aec19b0e95465770f953f4e903f4c946085dae905353cc66b76314340"
+    },
+    {
+      "file": "sql/02_quality_reconciliation.sql",
+      "bytes": 588,
+      "sha256": "2e23100c6e4519622f6a3c35ee9bfba178451ae37192c2d129d8c5ce08c95f48"
+    },
+    {
+      "file": "sql/03_business_metrics.sql",
+      "bytes": 394,
+      "sha256": "546a3ce80a1f229949fd2126ec6026e587fb4bee186796195f8bf8ac27a90537"
+    },
+    {
+      "file": "sql/04_zone_hour.sql",
+      "bytes": 154,
+      "sha256": "df35959c6ae8861627523c5e3e45f7e43ebfbeb8b19d412f402cb0e94bf228a6"
+    },
+    {
+      "file": "sql/05_forecast_metrics.sql",
+      "bytes": 300,
+      "sha256": "9ce5cb54751e84f65486ac0604f56c523b729c550b14e04b7d13d174a4df1db0"
+    },
+    {
+      "file": "src/__init__.py",
+      "bytes": 54,
+      "sha256": "7a10e63b668be160e9cf7c66a5757c4272a85a97a803b82ec237a7a215c22ef6"
+    },
+    {
+      "file": "src/analyze.py",
+      "bytes": 2740,
+      "sha256": "f960a2f9dc6dafb3280125211ff5bc583c947948542e9b762f89a91198b8105f"
+    },
+    {
+      "file": "src/config.py",
+      "bytes": 1263,
+      "sha256": "bd4c3460b31b9d3c530eef1eb8bcfcb297441f0e5bf2e9f3567a24a8c167369b"
+    },
+    {
+      "file": "src/download.py",
+      "bytes": 6845,
+      "sha256": "0682f11cb0b18e3bc268b99570614cf8d421ee80700f4d4bcfb4d6455c060b31"
+    },
+    {
+      "file": "src/evaluate.py",
+      "bytes": 2083,
+      "sha256": "2a40e859999dcf5f1d417c9e10d8905cb86725a6b1722e712bb7bcdc80d2344b"
+    },
+    {
+      "file": "src/execute_notebooks.py",
+      "bytes": 1394,
+      "sha256": "94cdf2de75ba54c23f5ad5eb89e7aed57e29c646b511135c33d201f11845144f"
+    },
+    {
+      "file": "src/features.py",
+      "bytes": 3765,
+      "sha256": "ecee3c48340ae0cf1a4efa9b1fff4a64afb3ca0498fffd7d3b08cc8d015dbbb0"
+    },
+    {
+      "file": "src/finalize_delivery.py",
+      "bytes": 6960,
+      "sha256": "4a6285cf2ba2fd95898301f5401ff308fce53bf20333a720b6cb1cb236fc5a55"
+    },
+    {
+      "file": "src/learning.py",
+      "bytes": 24415,
+      "sha256": "d3849034187d1968bd1f3f755bd2d8dce4596811ce7507964a1a0a0f1eae1005"
+    },
+    {
+      "file": "src/models.py",
+      "bytes": 5494,
+      "sha256": "bb05e1d49c584413cf91455bc709caf2010580a75a6a47e38c2c656e050453e2"
+    },
+    {
+      "file": "src/prepare.py",
+      "bytes": 11192,
+      "sha256": "38b6e63d28696856fe24a8721eb6a8593598244b80f52ebaf34ae1c00912fe81"
+    },
+    {
+      "file": "src/reporting.py",
+      "bytes": 30684,
+      "sha256": "b679dbbf8949efe09cca2c533ea3c5dd5c3d7c75e25a9e3ab54d79321dab6225"
+    },
+    {
+      "file": "src/restore_powerbi_data.py",
+      "bytes": 3496,
+      "sha256": "821893c3ccc5bd7a742a87109a5cffc88b80b1e504908f86e7b75e21cd682d3a"
+    },
+    {
+      "file": "src/run_pipeline.py",
+      "bytes": 1579,
+      "sha256": "71f7392de3e4b7916aad2fdf7ae5ea62bd43af884d32a37c8608fa170aea3f76"
+    },
+    {
+      "file": "src/simulate.py",
+      "bytes": 3139,
+      "sha256": "de4b338ba705f7b8d1d0e3bd2a9b4a0e9762ee205ff582fae7164170073db8dd"
+    },
+    {
+      "file": "src/utils.py",
+      "bytes": 1071,
+      "sha256": "acfc1b289e537fea78a1eb81225524006c2ae4f1d073d655bbe10fa0b62ee5d7"
+    },
+    {
+      "file": "src/verify.py",
+      "bytes": 6789,
+      "sha256": "c8e63b85fdad5c78db538f03bb24c521f7ab6b528790bd3b7bce4fb6ec07f96a"
+    },
+    {
+      "file": "tests/test_methods.py",
+      "bytes": 5651,
+      "sha256": "7b4528fd394e4be92175e2868ef14b54abb9d4dab9c92d89a2a1adf0770d27ca"
+    }
+  ],
+  "count": 220,
+  "link_check": "passed",
+  "required_acceptance": "passed",
+  "additional_static_cli_validation": "failed; see reports/project_acceptance.md"
+}

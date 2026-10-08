@@ -1,0 +1,6 @@
+﻿model,model_label
+daily_naive,前一天同小时
+weekly_naive,前一周同小时
+four_week_mean,四周同星期同小时均值
+lgbm_31,LightGBM（31叶）
+lgbm_63,LightGBM（63叶）

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "城市出行运营分析"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9ae724ca-d649-4b97-a3db-a6e09c3e221c"
+  }
+}

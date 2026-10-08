@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-08T02:19:36.361472+00:00",
+  "files": {
+    "data/processed/test_predictions.parquet": "d9307126ff9fdf902543b0ccf300c7b24309ab152810126cce2c7ba53e9d8be5",
+    "data/processed/validation_predictions.parquet": "1988365b236e772695065f9477dce1cd6031544dc738e1c4f352dbb820410555",
+    "models/lgbm_31_final.txt": "7930a6c1f51ee98d4a0efd40e0a8e4150b90f012f6bba319da993c7320964c02",
+    "models/lgbm_63_final.txt": "3e8513cabb6407d2632159bd0e923bd7240974f22ca4b2a7c84dc97267b099af",
+    "models/model_selection.json": "3dac320396bff037ce1d04a0e906dae47f31cecb6f040e1ff92298a5ede42383",
+    "reports/tables/test_metrics.csv": "58aab4383f2af83d88d363ec15c689a87504295384d8b4da6e6a662dafe309fc",
+    "reports/tables/simulation_summary.csv": "10aa26c2b2f6aca142706d6cec63c0120d7769e208625f5598098e74f490d60c"
+  }
+}

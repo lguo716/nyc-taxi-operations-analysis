@@ -1,0 +1,8 @@
+# Preserve exact artifact bytes so the recorded SHA256 identities stay valid.
+* -text
+*.pbix binary
+*.zip binary
+*.png binary
+*.shp binary
+*.shx binary
+*.dbf binary

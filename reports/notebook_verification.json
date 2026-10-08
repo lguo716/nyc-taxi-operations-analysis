@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-10-08T02:38:58.325466+00:00",
+  "notebooks": [
+    {
+      "notebook": "01_operations.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "executed": true
+    },
+    {
+      "notebook": "02_forecasting.ipynb",
+      "code_cells": 6,
+      "errors": 0,
+      "executed": true
+    },
+    {
+      "notebook": "03_dispatch.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "executed": true
+    }
+  ],
+  "passed": true
+}

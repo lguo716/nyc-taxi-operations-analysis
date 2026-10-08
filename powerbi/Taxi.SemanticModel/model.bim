@@ -1,0 +1,2586 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dim_zone\",\"dim_date\",\"dim_hour\",\"fact_zone_hour\",\"forecast_hourly\",\"test_metrics\",\"validation_metrics\",\"test_zone_metrics\",\"simulation_hourly\",\"dim_budget\",\"dim_strategy\",\"data_quality_monthly\",\"ProjectRoot\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "zh-CN",
+    "cultures": [
+      {
+        "name": "zh-CN",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "data_quality_monthly.source_month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "data_quality_monthly",
+                    "ConceptualProperty": "source_month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "源月份": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_budget.budget_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_budget",
+                    "ConceptualProperty": "budget_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "budget_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_date.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_date",
+                    "ConceptualProperty": "date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_date.day_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_date",
+                    "ConceptualProperty": "day_type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day_type": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_date.month_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_date",
+                    "ConceptualProperty": "month_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_date.weather_group": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_date",
+                    "ConceptualProperty": "weather_group"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "weather_group": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_hour.hour_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_hour",
+                    "ConceptualProperty": "hour_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hour_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_strategy.strategy_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_strategy",
+                    "ConceptualProperty": "strategy_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "strategy_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "分配策略": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_zone.borough": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_zone",
+                    "ConceptualProperty": "borough"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "borough": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_zone.zone_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_zone",
+                    "ConceptualProperty": "zone_key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "zone_key": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_zone.zone_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_zone",
+                    "ConceptualProperty": "zone_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "zone_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "区域": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.avg_distance": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Avg Distance"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "平均里程 / 公里": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.avg_duration": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Avg Duration"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "平均行程时长 / 分钟": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "分钟": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.avg_fare": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Avg Fare"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "平均计价车费": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "车费": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Avg Fare": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.avg_speed": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Avg Speed"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "平均行程速度 / km/h": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.card_tip_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Card Tip Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "银行卡小费率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.daily_avg_trips": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Daily Avg Trips"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Daily Avg Trips": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Trips": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.efficiency_n": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Efficiency N"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "效率指标有效记录数": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.flag_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Flag Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "有效需求记录标记率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "标记率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_actual": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast Actual"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "实际记录": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_advantage": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast Advantage"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "相对历史方案多覆盖记录": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_coverage": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast Coverage"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "预测方案模拟覆盖率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_idle": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast Idle"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "预测方案闲置名额": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_mae": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast MAE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Forecast MAE": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "平均绝对误差 / 次": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_predicted": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast Predicted"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Forecast Predicted": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "选定方案预测": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_rmse": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast RMSE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "均方根误差 / 次": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_served": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast Served"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "预测方案模拟覆盖记录": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.forecast_wape": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Forecast WAPE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "所选区域 WAPE": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.negative_amount_rows": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Negative Amount Rows"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "负金额": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.raw_rows": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Raw Rows"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "源记录": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.selected_model": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Selected Model"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "验证集选定方案": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.sim_allocation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Sim Allocation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "名额": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.sim_coverage": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Sim Coverage"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sim Coverage": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.sim_idle": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Sim Idle"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "闲置": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.sim_served": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Sim Served"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sim Served": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "覆盖": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.sim_uncovered": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Sim Uncovered"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "未覆盖": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.test_wape": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Test WAPE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Test WAPE": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.trips": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Trips"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Trips": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "有效区域上车记录": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "上车记录": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.unknown_pickup": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Unknown Pickup"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "未知上车区": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "test_metrics.model_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "test_metrics",
+                    "ConceptualProperty": "model_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "model_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "ProjectRoot",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"D:/resume/projects/nyc-taxi-operations-analysis\" meta [IsParameterQuery=true,Type=\"Text\",IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "b9c56446-ad7d-4c86-bc87-60d5f39e1cc6"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "fact_zone_hour_dim_date",
+        "fromColumn": "date",
+        "fromTable": "fact_zone_hour",
+        "toColumn": "date",
+        "toTable": "dim_date"
+      },
+      {
+        "name": "fact_zone_hour_dim_zone",
+        "fromColumn": "zone_id",
+        "fromTable": "fact_zone_hour",
+        "toColumn": "zone_id",
+        "toTable": "dim_zone"
+      },
+      {
+        "name": "fact_zone_hour_dim_hour",
+        "fromColumn": "hour",
+        "fromTable": "fact_zone_hour",
+        "toColumn": "hour",
+        "toTable": "dim_hour"
+      },
+      {
+        "name": "forecast_hourly_dim_date",
+        "fromColumn": "date",
+        "fromTable": "forecast_hourly",
+        "toColumn": "date",
+        "toTable": "dim_date"
+      },
+      {
+        "name": "forecast_hourly_dim_zone",
+        "fromColumn": "zone_id",
+        "fromTable": "forecast_hourly",
+        "toColumn": "zone_id",
+        "toTable": "dim_zone"
+      },
+      {
+        "name": "forecast_hourly_dim_hour",
+        "fromColumn": "hour",
+        "fromTable": "forecast_hourly",
+        "toColumn": "hour",
+        "toTable": "dim_hour"
+      },
+      {
+        "name": "simulation_hourly_dim_date",
+        "fromColumn": "date",
+        "fromTable": "simulation_hourly",
+        "toColumn": "date",
+        "toTable": "dim_date"
+      },
+      {
+        "name": "simulation_hourly_dim_zone",
+        "fromColumn": "zone_id",
+        "fromTable": "simulation_hourly",
+        "toColumn": "zone_id",
+        "toTable": "dim_zone"
+      },
+      {
+        "name": "simulation_hourly_dim_hour",
+        "fromColumn": "hour",
+        "fromTable": "simulation_hourly",
+        "toColumn": "hour",
+        "toTable": "dim_hour"
+      },
+      {
+        "name": "simulation_strategy",
+        "fromColumn": "strategy",
+        "fromTable": "simulation_hourly",
+        "toColumn": "strategy",
+        "toTable": "dim_strategy"
+      }
+    ],
+    "sourceQueryCulture": "zh-CN",
+    "tables": [
+      {
+        "name": "dim_zone",
+        "columns": [
+          {
+            "name": "zone_id",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "isKey": true,
+            "lineageTag": "c4998fbc-f1a2-41a7-9d5a-e18b48e67e0a",
+            "sourceColumn": "zone_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "borough",
+            "dataType": "string",
+            "lineageTag": "cc98b1f6-d0fa-4af0-a3bf-c81f9f95e204",
+            "sourceColumn": "borough",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zone",
+            "dataType": "string",
+            "lineageTag": "76746d15-914a-43cf-b671-541b3af47f93",
+            "sourceColumn": "zone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "service_zone",
+            "dataType": "string",
+            "lineageTag": "dd40bf1c-9cae-4068-96e4-ad385bd3f2df",
+            "sourceColumn": "service_zone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zone_key",
+            "dataType": "string",
+            "lineageTag": "dd5890e4-5c66-4609-b763-d2052c1484ad",
+            "sourceColumn": "zone_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zone_label",
+            "dataType": "string",
+            "lineageTag": "03fb30d7-4334-4288-bd12-8d8c39f8448a",
+            "sourceColumn": "zone_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d393bcad-e065-4598-bf0e-9bee471a15d4",
+        "partitions": [
+          {
+            "name": "dim_zone",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_zone.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"zone_id\", Int64.Type}, {\"borough\", type text}, {\"zone\", type text}, {\"service_zone\", type text}, {\"zone_key\", type text}, {\"zone_label\", type text}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "columns": [
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "isKey": true,
+            "lineageTag": "b58fbc4c-d018-4d4f-8703-4ea904afa766",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "temperature_2m_mean",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "d26bab58-3719-4087-b380-914379a74770",
+            "sourceColumn": "temperature_2m_mean",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "precipitation_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "2831ba52-3a38-445a-bca6-cdf7bd5160a7",
+            "sourceColumn": "precipitation_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "snowfall_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "0d9bf7d8-199e-43ab-a96a-85650349e2cd",
+            "sourceColumn": "snowfall_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wind_speed_10m_max",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "03294d76-2e1c-4e89-8df8-6cda06733dff",
+            "sourceColumn": "wind_speed_10m_max",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weekday",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "d3462718-99df-4287-b8ae-6585ba52e4b7",
+            "sourceColumn": "weekday",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "76353f3b-b30d-4a22-9033-088ad6a37662",
+            "sourceColumn": "month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_weekend",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "af2f86e8-da0d-4501-8700-2de8ef6b3290",
+            "sourceColumn": "is_weekend",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_holiday",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "85b27338-c74c-4284-8a37-59eb04b285a1",
+            "sourceColumn": "is_holiday",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "holiday_name",
+            "dataType": "string",
+            "lineageTag": "b94f3ef8-efd9-490c-ae82-9e7bec85c146",
+            "sourceColumn": "holiday_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weather_group",
+            "dataType": "string",
+            "lineageTag": "dba25e1b-259b-42ff-b73c-58e5b219c8b1",
+            "sourceColumn": "weather_group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "day_type",
+            "dataType": "string",
+            "lineageTag": "b4e02373-2275-4cd6-a981-ebc92f7f6c52",
+            "sourceColumn": "day_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month_label",
+            "dataType": "string",
+            "lineageTag": "16a389fe-ae77-49cf-a259-2094494cc290",
+            "sourceColumn": "month_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1f5fda63-b5d1-464e-8b6f-e8ca39767496",
+        "partitions": [
+          {
+            "name": "dim_date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_date.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"date\", type date}, {\"temperature_2m_mean\", type number}, {\"precipitation_sum\", type number}, {\"snowfall_sum\", type number}, {\"wind_speed_10m_max\", type number}, {\"weekday\", Int64.Type}, {\"month\", Int64.Type}, {\"is_weekend\", Int64.Type}, {\"is_holiday\", Int64.Type}, {\"holiday_name\", type text}, {\"weather_group\", type text}, {\"day_type\", type text}, {\"month_label\", type text}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_hour",
+        "columns": [
+          {
+            "name": "hour",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "isKey": true,
+            "lineageTag": "6d8fefe3-aece-4dbe-9a27-bc047682d327",
+            "sourceColumn": "hour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hour_label",
+            "dataType": "string",
+            "lineageTag": "70cd7aeb-5291-461b-8422-76229ef558af",
+            "sortByColumn": "hour",
+            "sourceColumn": "hour_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "736f1a95-12cc-4874-84ec-7f90191571c1",
+        "partitions": [
+          {
+            "name": "dim_hour",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_hour.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"hour\", Int64.Type}, {\"hour_label\", type text}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_zone_hour",
+        "columns": [
+          {
+            "name": "zone_id",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "37bb2022-f87e-45f9-bad2-84369ff5d503",
+            "sourceColumn": "zone_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "e751e61e-b377-472c-a4d7-f3a2fe041c47",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hour",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "17dfee7b-76dc-4b32-bf71-38adc157559e",
+            "sourceColumn": "hour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "trips",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "26bf42ff-847f-40c4-8a8c-f9d71b4a190f",
+            "sourceColumn": "trips",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fare_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "ffcc2150-b835-40b1-80d5-09c021cd153a",
+            "sourceColumn": "fare_n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fare_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "193b0126-25a1-4756-8da6-bed3d6c55aa5",
+            "sourceColumn": "fare_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_charge_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "9680ce16-38a6-4aa2-8591-d73b30997554",
+            "sourceColumn": "total_charge_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "efficiency_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "60d36480-23db-4026-a984-ad3b46a569e6",
+            "sourceColumn": "efficiency_n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "distance_km_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "a9478a37-d968-429d-b1d2-b81be0bc2c83",
+            "sourceColumn": "distance_km_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "duration_min_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "52fb9885-155c-45c1-847d-ddc7d23c017e",
+            "sourceColumn": "duration_min_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "speed_kmh_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "83561c35-7761-4875-b2e4-bf7f73c0f6fd",
+            "sourceColumn": "speed_kmh_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tip_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "36b27a9c-fb7d-4955-ba66-40b901c57142",
+            "sourceColumn": "tip_n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tip_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "3931a83e-88f7-4fce-a971-7b2713b9f5d5",
+            "sourceColumn": "tip_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tip_fare_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "6b5bdb33-fbf7-4a4e-bf7b-e009ee507bc6",
+            "sourceColumn": "tip_fare_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flagged_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "7e6969d1-0f7a-4b1f-bd7e-da81bf248d81",
+            "sourceColumn": "flagged_n",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e36a9c2d-5614-403d-a66a-1f16c01a6dc8",
+        "partitions": [
+          {
+            "name": "fact_zone_hour",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\fact_zone_hour.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"zone_id\", Int64.Type}, {\"date\", type date}, {\"hour\", Int64.Type}, {\"trips\", Int64.Type}, {\"fare_n\", Int64.Type}, {\"fare_sum\", type number}, {\"total_charge_sum\", type number}, {\"efficiency_n\", Int64.Type}, {\"distance_km_sum\", type number}, {\"duration_min_sum\", type number}, {\"speed_kmh_sum\", type number}, {\"tip_n\", Int64.Type}, {\"tip_sum\", type number}, {\"tip_fare_sum\", type number}, {\"flagged_n\", Int64.Type}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "forecast_hourly",
+        "columns": [
+          {
+            "name": "zone_id",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "6f444ac6-d85c-4ef4-bb2f-b54de6667464",
+            "sourceColumn": "zone_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "de349a95-26bb-4ff5-b9e4-df8bf9682e5d",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hour",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "3fd4b6ea-5f59-4d18-848b-218a15e0a6be",
+            "sourceColumn": "hour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "actual",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "805aef4e-1b66-4c0e-98da-81f6e9dbf27a",
+            "sourceColumn": "actual",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "predicted",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "bb0a8c06-7840-48b9-b10f-d81bf856ab8d",
+            "sourceColumn": "predicted",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "absolute_error",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "76c1e1ff-e7a7-481a-a00d-9bf74fc895f7",
+            "sourceColumn": "absolute_error",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "squared_error",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "05f4e5b2-8f3c-443c-908c-9d16f46c0d9a",
+            "sourceColumn": "squared_error",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "23467dff-be3c-4a01-af07-705642773bfa",
+        "partitions": [
+          {
+            "name": "forecast_hourly",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\forecast_hourly.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"zone_id\", Int64.Type}, {\"date\", type date}, {\"hour\", Int64.Type}, {\"actual\", Int64.Type}, {\"predicted\", type number}, {\"absolute_error\", type number}, {\"squared_error\", type number}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "test_metrics",
+        "columns": [
+          {
+            "name": "split",
+            "dataType": "string",
+            "lineageTag": "d1a0a9ed-b839-4461-959d-815425f2c4ec",
+            "sourceColumn": "split",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "98958b3b-e7da-4d58-afc0-fd213308b927",
+            "sourceColumn": "month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "0a13d63a-e67d-4be1-875b-3034c36f50ba",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model_label",
+            "dataType": "string",
+            "lineageTag": "c9ed7bf7-7b9c-4600-934a-3137952962c2",
+            "sourceColumn": "model_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "8db2378e-a535-46c0-afb0-0715cb250fbc",
+            "sourceColumn": "selected",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "56463d73-9492-4521-8bd0-a77d9daeba93",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "actual_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "2083f2e7-6d1b-4cac-aea8-a21044002d9f",
+            "sourceColumn": "actual_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "prediction_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "edebd425-5d68-4c25-8b56-ffe50f7b5819",
+            "sourceColumn": "prediction_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "absolute_error_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "2e238802-eac4-48d8-bc49-822695ba2cd3",
+            "sourceColumn": "absolute_error_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "squared_error_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "aca79b87-9fce-4ede-8493-a491a19260b1",
+            "sourceColumn": "squared_error_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wape",
+            "dataType": "double",
+            "formatString": "0.00%",
+            "lineageTag": "0d559ab4-788a-4c46-a9fb-a4199caea3ee",
+            "sourceColumn": "wape",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mae",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "d7f6b9e3-24d6-4538-9699-5d6c09669a80",
+            "sourceColumn": "mae",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rmse",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "77fe5bf9-9b8e-4519-a5e5-0e102b2e191b",
+            "sourceColumn": "rmse",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bias",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "e5061e38-338a-4c51-aa48-97059db62fd1",
+            "sourceColumn": "bias",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "55e9afbc-8171-47b8-a4be-4c012c10d777",
+        "partitions": [
+          {
+            "name": "test_metrics",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\test_metrics.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"split\", type text}, {\"month\", Int64.Type}, {\"model\", type text}, {\"model_label\", type text}, {\"selected\", Int64.Type}, {\"n\", Int64.Type}, {\"actual_sum\", type number}, {\"prediction_sum\", type number}, {\"absolute_error_sum\", type number}, {\"squared_error_sum\", type number}, {\"wape\", type number}, {\"mae\", type number}, {\"rmse\", type number}, {\"bias\", type number}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "validation_metrics",
+        "columns": [
+          {
+            "name": "split",
+            "dataType": "string",
+            "lineageTag": "b3ec53df-2670-4023-af97-a7388b4aa530",
+            "sourceColumn": "split",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "0c900d8a-8082-4e39-93db-2a309a547b98",
+            "sourceColumn": "month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "c994a225-bd5e-424b-9d63-2b7c4aca5b44",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model_label",
+            "dataType": "string",
+            "lineageTag": "87bfb4eb-33a8-4425-82e3-24191bf47472",
+            "sourceColumn": "model_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "best_iteration",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "3bb7ce1f-468d-46eb-8898-c311c72dc191",
+            "sourceColumn": "best_iteration",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "cbac2085-583c-4b70-8fdc-5b4d81568fa1",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "actual_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "d2d7b60a-1d0a-42df-86de-d9ff78e6be7c",
+            "sourceColumn": "actual_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "prediction_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "fab94a5c-d69d-4968-86ec-ea8e24100564",
+            "sourceColumn": "prediction_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "absolute_error_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "2f78afe8-fd1d-44de-abdf-c5523172d596",
+            "sourceColumn": "absolute_error_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "squared_error_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "98b7edc8-4ad5-4852-856e-f95b802e48c2",
+            "sourceColumn": "squared_error_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wape",
+            "dataType": "double",
+            "formatString": "0.00%",
+            "lineageTag": "0547e289-8d30-409d-a449-2c378f4634d2",
+            "sourceColumn": "wape",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mae",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "991214e5-4729-4f79-9ad8-26e8f63d181f",
+            "sourceColumn": "mae",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rmse",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "7579ae3a-9963-4c37-9384-51877b208553",
+            "sourceColumn": "rmse",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bias",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "1b513dc7-8c3d-4033-bf6f-6a0bbfe3a555",
+            "sourceColumn": "bias",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d7f3b86f-7b37-4ce0-b931-48c90c94cf0f",
+        "partitions": [
+          {
+            "name": "validation_metrics",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\validation_metrics.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"split\", type text}, {\"month\", Int64.Type}, {\"model\", type text}, {\"model_label\", type text}, {\"best_iteration\", type number}, {\"n\", Int64.Type}, {\"actual_sum\", type number}, {\"prediction_sum\", type number}, {\"absolute_error_sum\", type number}, {\"squared_error_sum\", type number}, {\"wape\", type number}, {\"mae\", type number}, {\"rmse\", type number}, {\"bias\", type number}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "test_zone_metrics",
+        "columns": [
+          {
+            "name": "zone_id",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "d8e3cccb-d2ac-4768-b4b2-0665dd8e478b",
+            "sourceColumn": "zone_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "f6f0f4cb-a8ad-40fa-a434-23148c966574",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model_label",
+            "dataType": "string",
+            "lineageTag": "548fe601-03f7-4293-8f60-fedb0745f365",
+            "sourceColumn": "model_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "81892d56-6f9a-4947-a79c-cb2d0c703cb2",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "actual_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "b953b246-c670-44d1-9f5c-9512be8c2647",
+            "sourceColumn": "actual_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "prediction_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "250641eb-9749-4a97-961e-598ce8a6e434",
+            "sourceColumn": "prediction_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "absolute_error_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "a390b103-2c49-437a-8471-3d50d066fec2",
+            "sourceColumn": "absolute_error_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "squared_error_sum",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "1d140ade-ca25-4972-b8d0-4a5031c52044",
+            "sourceColumn": "squared_error_sum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wape",
+            "dataType": "double",
+            "formatString": "0.00%",
+            "lineageTag": "9b1c6cbd-a0e6-4d8f-b2f8-574bceeb74c5",
+            "sourceColumn": "wape",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mae",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "3e5cf600-4ee4-4581-a3fe-4e99d3fbf96e",
+            "sourceColumn": "mae",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rmse",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "22149c46-dc59-403d-9c28-bd9ea0924e4b",
+            "sourceColumn": "rmse",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bias",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "16da6217-3645-43a7-8874-b9bb50bed6fd",
+            "sourceColumn": "bias",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "256c74e3-7278-4426-96fe-87a8807b86ee",
+        "partitions": [
+          {
+            "name": "test_zone_metrics",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\test_zone_metrics.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"zone_id\", Int64.Type}, {\"model\", type text}, {\"model_label\", type text}, {\"n\", Int64.Type}, {\"actual_sum\", type number}, {\"prediction_sum\", type number}, {\"absolute_error_sum\", type number}, {\"squared_error_sum\", type number}, {\"wape\", type number}, {\"mae\", type number}, {\"rmse\", type number}, {\"bias\", type number}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "simulation_hourly",
+        "columns": [
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "67d588fd-fb5d-45a2-b457-3397032618c5",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hour",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "1d497a6c-d3e0-4946-855b-eaf289db0b98",
+            "sourceColumn": "hour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zone_id",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "8fb45e2f-07fa-4dac-ab63-2c52e8fe1765",
+            "sourceColumn": "zone_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "budget",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "a36339d8-89dd-4f53-adcd-3f5889cb9b4c",
+            "sourceColumn": "budget",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "strategy",
+            "dataType": "string",
+            "lineageTag": "b5444f2a-8c9d-4c89-85e6-5ae759ae40bd",
+            "sourceColumn": "strategy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "strategy_label",
+            "dataType": "string",
+            "lineageTag": "8f4169d5-6bec-4375-a144-733e88b4b332",
+            "sourceColumn": "strategy_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "actual",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "f0ce9827-5887-461a-a1d2-6e912578732c",
+            "sourceColumn": "actual",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "allocation",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "1fba67ac-d796-41b6-8789-872a67fa37a5",
+            "sourceColumn": "allocation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "served",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "4857c476-afac-4632-b62e-1318dd6048c5",
+            "sourceColumn": "served",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "uncovered",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "b46aea78-0f85-4177-8320-40d924ed09be",
+            "sourceColumn": "uncovered",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "idle",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "0c248161-3fe6-4704-a099-e8f971d6037d",
+            "sourceColumn": "idle",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4f235f17-f35d-43c4-9c61-33a2fc70883b",
+        "partitions": [
+          {
+            "name": "simulation_hourly",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\simulation_hourly.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"date\", type date}, {\"hour\", Int64.Type}, {\"zone_id\", Int64.Type}, {\"budget\", Int64.Type}, {\"strategy\", type text}, {\"strategy_label\", type text}, {\"actual\", Int64.Type}, {\"allocation\", Int64.Type}, {\"served\", Int64.Type}, {\"uncovered\", Int64.Type}, {\"idle\", Int64.Type}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_budget",
+        "columns": [
+          {
+            "name": "budget",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "e1703024-4d64-400c-ae32-82fc083b4c47",
+            "sourceColumn": "budget",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "budget_label",
+            "dataType": "string",
+            "lineageTag": "0f5bcfeb-64b2-4366-a041-bd421c3cfcb6",
+            "sortByColumn": "budget",
+            "sourceColumn": "budget_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "71d8421c-8811-4f9e-b43d-da69ca8403b6",
+        "partitions": [
+          {
+            "name": "dim_budget",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_budget.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"budget\", Int64.Type}, {\"budget_label\", type text}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_strategy",
+        "columns": [
+          {
+            "name": "strategy",
+            "dataType": "string",
+            "isKey": true,
+            "lineageTag": "a9b5b012-d4e0-4336-bb78-725b3b90a077",
+            "sourceColumn": "strategy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "strategy_label",
+            "dataType": "string",
+            "lineageTag": "223aac3c-b1c2-4adb-9fa8-21ab012cc900",
+            "sourceColumn": "strategy_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bb7e4ce0-917b-46cc-afe3-8cc9be86c93a",
+        "partitions": [
+          {
+            "name": "dim_strategy",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_strategy.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"strategy\", type text}, {\"strategy_label\", type text}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "data_quality_monthly",
+        "columns": [
+          {
+            "name": "source_month",
+            "dataType": "string",
+            "lineageTag": "172c7717-ca1d-4cd1-96ce-d6e247567f33",
+            "sourceColumn": "source_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "raw_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "b6e57743-f29c-4550-8e10-cec0f9a2ebbd",
+            "sourceColumn": "raw_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "outside_source_month",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "7142078b-f9a5-4566-9fad-015ea175feeb",
+            "sourceColumn": "outside_source_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "voided_in_scope",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "ae14027c-86fa-47c4-b254-f7415b966322",
+            "sourceColumn": "voided_in_scope",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unknown_pickup",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "9fc796a6-a471-49cc-950d-26339d99ea0e",
+            "sourceColumn": "unknown_pickup",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "demand_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "01a2e642-bc29-49cf-9839-0f4f02da9deb",
+            "sourceColumn": "demand_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "in_scope_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "cfdea0bf-fa03-4e5b-82aa-b143493b50de",
+            "sourceColumn": "in_scope_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fare_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "86e9693a-d87b-47cb-9447-5069bcaab3ff",
+            "sourceColumn": "fare_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "efficiency_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "68019ebf-52bd-483d-8b02-6eefe6afbdf0",
+            "sourceColumn": "efficiency_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tip_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "3ebb688b-a359-429b-8cdb-b1eccfa4413e",
+            "sourceColumn": "tip_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "negative_amount",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "a8278cbd-c9b9-4d7d-a9ff-32ce7df50221",
+            "sourceColumn": "negative_amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "extreme_amount",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "e0375085-af4a-43b9-bf25-a97b1fda3ac6",
+            "sourceColumn": "extreme_amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "missing_amount",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "a32a27b9-c5fd-4a86-b0b6-23f44e4af1c3",
+            "sourceColumn": "missing_amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bad_duration",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "c91b6b1e-85ce-46be-b366-1393aff810e9",
+            "sourceColumn": "bad_duration",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bad_distance",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "3ab68e0f-9aa8-4c79-9f6c-b04333498031",
+            "sourceColumn": "bad_distance",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bad_speed",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "41c83639-60f3-4f0c-8b89-9614584292c0",
+            "sourceColumn": "bad_speed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dst_efficiency_excluded",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "efc228eb-caa3-4bb8-873c-c527dab5dbd2",
+            "sourceColumn": "dst_efficiency_excluded",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flagged_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "fd298ab1-c236-406f-8645-4abf59c70fbe",
+            "sourceColumn": "flagged_rows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "identical_field_extra_rows",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "d07db19b-0b09-474d-9c5b-5c9d98c3757c",
+            "sourceColumn": "identical_field_extra_rows",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "fd4b29cb-82f9-4b40-9af5-e0cb9c5108ac",
+        "partitions": [
+          {
+            "name": "data_quality_monthly",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source=Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\data_quality_monthly.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers=Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed=Table.TransformColumnTypes(Headers,{{\"source_month\", type text}, {\"raw_rows\", Int64.Type}, {\"outside_source_month\", Int64.Type}, {\"voided_in_scope\", Int64.Type}, {\"unknown_pickup\", Int64.Type}, {\"demand_rows\", Int64.Type}, {\"in_scope_rows\", Int64.Type}, {\"fare_rows\", Int64.Type}, {\"efficiency_rows\", Int64.Type}, {\"tip_rows\", Int64.Type}, {\"negative_amount\", Int64.Type}, {\"extreme_amount\", Int64.Type}, {\"missing_amount\", Int64.Type}, {\"bad_duration\", Int64.Type}, {\"bad_distance\", Int64.Type}, {\"bad_speed\", Int64.Type}, {\"dst_efficiency_excluded\", Int64.Type}, {\"flagged_rows\", Int64.Type}, {\"identical_field_extra_rows\", Int64.Type}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Metrics",
+        "columns": [
+          {
+            "name": "Placeholder",
+            "dataType": "string",
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "6a9c6d52-1b24-45d3-87de-33a75f63141b",
+            "sourceColumn": "[Placeholder]",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "468decef-f130-497b-8eae-7f598924ef4b",
+        "measures": [
+          {
+            "name": "Trips",
+            "displayFolder": "出行运营",
+            "expression": "SUM(fact_zone_hour[trips])",
+            "formatString": "#,0",
+            "lineageTag": "8402c22f-e200-4ebc-8ffa-0e87c2598ce6"
+          },
+          {
+            "name": "Fare N",
+            "displayFolder": "出行运营",
+            "expression": "SUM(fact_zone_hour[fare_n])",
+            "formatString": "#,0",
+            "lineageTag": "f6bde80c-1d98-4acb-9149-f8652f0d44e7"
+          },
+          {
+            "name": "Total Charge",
+            "displayFolder": "出行运营",
+            "expression": "SUM(fact_zone_hour[total_charge_sum])",
+            "formatString": "$#,0",
+            "lineageTag": "c2aecf40-320b-474f-b9df-c24137086379"
+          },
+          {
+            "name": "Avg Fare",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(fact_zone_hour[fare_sum]),[Fare N])",
+            "formatString": "$0.00",
+            "lineageTag": "2d8213d6-8ae3-450d-93e6-1c2ad1f637e1"
+          },
+          {
+            "name": "Avg Total Charge",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE([Total Charge],[Fare N])",
+            "formatString": "$0.00",
+            "lineageTag": "c94dfaea-5f39-4260-a635-f73fed258956"
+          },
+          {
+            "name": "Efficiency N",
+            "displayFolder": "出行运营",
+            "expression": "SUM(fact_zone_hour[efficiency_n])",
+            "formatString": "#,0",
+            "lineageTag": "aa1d373b-4463-4b58-b4c9-a949fe7a1bc0"
+          },
+          {
+            "name": "Avg Distance",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(fact_zone_hour[distance_km_sum]),[Efficiency N])",
+            "formatString": "#,0.00",
+            "lineageTag": "60bffa57-3604-459f-9d97-532840170e2b"
+          },
+          {
+            "name": "Avg Duration",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(fact_zone_hour[duration_min_sum]),[Efficiency N])",
+            "formatString": "#,0.00",
+            "lineageTag": "e93159f3-b678-4c32-b8e3-7cf0d4a5b461"
+          },
+          {
+            "name": "Avg Speed",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(fact_zone_hour[speed_kmh_sum]),[Efficiency N])",
+            "formatString": "#,0.00",
+            "lineageTag": "642d0106-34d1-4c50-8464-8fbd375c55ec"
+          },
+          {
+            "name": "Card Tip Rate",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(fact_zone_hour[tip_sum]),SUM(fact_zone_hour[tip_fare_sum]))",
+            "formatString": "0.00%",
+            "lineageTag": "53096c50-0d3d-4549-b81a-79b7f0dc4635"
+          },
+          {
+            "name": "Flagged N",
+            "displayFolder": "出行运营",
+            "expression": "SUM(fact_zone_hour[flagged_n])",
+            "formatString": "#,0",
+            "lineageTag": "845b9570-42e8-4ba4-b951-8f4649c54b9e"
+          },
+          {
+            "name": "Flag Rate",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE([Flagged N],[Trips])",
+            "formatString": "0.00%",
+            "lineageTag": "72437aa0-b028-4cdf-8717-ae07a66f6dcb"
+          },
+          {
+            "name": "Raw Rows",
+            "displayFolder": "出行运营",
+            "expression": "SUM(data_quality_monthly[raw_rows])",
+            "formatString": "#,0",
+            "lineageTag": "6c3b8e35-8ef7-4616-961c-0688cb93e9ba"
+          },
+          {
+            "name": "Unknown Pickup",
+            "displayFolder": "出行运营",
+            "expression": "SUM(data_quality_monthly[unknown_pickup])",
+            "formatString": "#,0",
+            "lineageTag": "d45da6a3-ef04-4b1d-b934-e4858c3792e0"
+          },
+          {
+            "name": "Negative Amount Rows",
+            "displayFolder": "出行运营",
+            "expression": "SUM(data_quality_monthly[negative_amount])",
+            "formatString": "#,0",
+            "lineageTag": "d5c59c8a-1418-4aaa-9774-f2718adadbe3"
+          },
+          {
+            "name": "Recorded Duplicates",
+            "displayFolder": "出行运营",
+            "expression": "SUM(data_quality_monthly[identical_field_extra_rows])",
+            "formatString": "#,0",
+            "lineageTag": "2bd69e97-2aca-4424-b317-f7ff50bec64b"
+          },
+          {
+            "name": "Selected Model",
+            "displayFolder": "出行运营",
+            "expression": "\"LightGBM（63叶）\"",
+            "lineageTag": "c0a48a65-71eb-49a0-8e79-91eaf00ed1bb"
+          },
+          {
+            "name": "Forecast Actual",
+            "displayFolder": "出行运营",
+            "expression": "SUM(forecast_hourly[actual])",
+            "formatString": "#,0",
+            "lineageTag": "31f958f5-2529-4f4e-a37f-dbede04f1232"
+          },
+          {
+            "name": "Forecast Predicted",
+            "displayFolder": "出行运营",
+            "expression": "SUM(forecast_hourly[predicted])",
+            "formatString": "#,0",
+            "lineageTag": "4fa41c87-9d5d-4eff-86ef-287af3759cae"
+          },
+          {
+            "name": "Forecast WAPE",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(forecast_hourly[absolute_error]),[Forecast Actual])",
+            "formatString": "0.00%",
+            "lineageTag": "5541e805-b05f-4043-8e16-7c2c305cb37d"
+          },
+          {
+            "name": "Forecast MAE",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE(SUM(forecast_hourly[absolute_error]),COUNTROWS(forecast_hourly))",
+            "formatString": "#,0.00",
+            "lineageTag": "81d627dd-4795-4d0f-8bd6-bce6bf270f59"
+          },
+          {
+            "name": "Forecast RMSE",
+            "displayFolder": "出行运营",
+            "expression": "SQRT(DIVIDE(SUM(forecast_hourly[squared_error]),COUNTROWS(forecast_hourly)))",
+            "formatString": "#,0.00",
+            "lineageTag": "361b1db2-9709-441a-b206-2e4cb172ca16"
+          },
+          {
+            "name": "Test WAPE",
+            "displayFolder": "出行运营",
+            "expression": "MAX(test_metrics[wape])",
+            "formatString": "0.00%",
+            "lineageTag": "6083d172-48fe-4e24-8ba7-15e3aaab61fb"
+          },
+          {
+            "name": "Test MAE",
+            "displayFolder": "出行运营",
+            "expression": "MAX(test_metrics[mae])",
+            "formatString": "#,0.00",
+            "lineageTag": "a4f5e78b-f8db-43fd-8879-d5a37296c758"
+          },
+          {
+            "name": "Test RMSE",
+            "displayFolder": "出行运营",
+            "expression": "MAX(test_metrics[rmse])",
+            "formatString": "#,0.00",
+            "lineageTag": "a3699ab3-336f-46eb-8634-7601183b69fa"
+          },
+          {
+            "name": "Selected Budget",
+            "displayFolder": "出行运营",
+            "expression": "SELECTEDVALUE(dim_budget[budget],1000)",
+            "formatString": "#,0",
+            "lineageTag": "edb8da35-db5b-48bf-a772-8f07db8d6fe9"
+          },
+          {
+            "name": "Sim Actual",
+            "displayFolder": "出行运营",
+            "expression": "VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[actual]),simulation_hourly[budget]=B)",
+            "formatString": "#,0",
+            "lineageTag": "92efa77e-a18a-411d-b28c-91ae0e323f71"
+          },
+          {
+            "name": "Sim Allocation",
+            "displayFolder": "出行运营",
+            "expression": "VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[allocation]),simulation_hourly[budget]=B)",
+            "formatString": "#,0",
+            "lineageTag": "3882e2bc-f7dd-46a3-be15-cdebca31441d"
+          },
+          {
+            "name": "Sim Served",
+            "displayFolder": "出行运营",
+            "expression": "VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[served]),simulation_hourly[budget]=B)",
+            "formatString": "#,0",
+            "lineageTag": "41fa304f-a8aa-4c78-94b9-ad78a2bfd5a2"
+          },
+          {
+            "name": "Sim Uncovered",
+            "displayFolder": "出行运营",
+            "expression": "VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[uncovered]),simulation_hourly[budget]=B)",
+            "formatString": "#,0",
+            "lineageTag": "adb28833-d114-458b-80a7-7acb2599cc78"
+          },
+          {
+            "name": "Sim Idle",
+            "displayFolder": "出行运营",
+            "expression": "VAR B=[Selected Budget] RETURN CALCULATE(SUM(simulation_hourly[idle]),simulation_hourly[budget]=B)",
+            "formatString": "#,0",
+            "lineageTag": "faf37b48-ccd4-49c0-86dc-ca4c6388d30b"
+          },
+          {
+            "name": "Sim Coverage",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE([Sim Served],[Sim Actual])",
+            "formatString": "0.00%",
+            "lineageTag": "40dc0785-2dbc-4895-ac12-c86448af909a"
+          },
+          {
+            "name": "Sim Utilization",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE([Sim Served],[Sim Allocation])",
+            "formatString": "0.00%",
+            "lineageTag": "4a4fcb77-90f4-4068-8213-4af2eaaded54"
+          },
+          {
+            "name": "Forecast Served",
+            "displayFolder": "出行运营",
+            "expression": "CALCULATE([Sim Served],dim_strategy[strategy]=\"forecast\")",
+            "formatString": "#,0",
+            "lineageTag": "fd6bf9de-3e4c-46a2-bc27-723235e8a65c"
+          },
+          {
+            "name": "Forecast Coverage",
+            "displayFolder": "出行运营",
+            "expression": "CALCULATE([Sim Coverage],dim_strategy[strategy]=\"forecast\")",
+            "formatString": "0.00%",
+            "lineageTag": "993dd76f-d60c-45da-a8c9-01d363f1d795"
+          },
+          {
+            "name": "Forecast Idle",
+            "displayFolder": "出行运营",
+            "expression": "CALCULATE([Sim Idle],dim_strategy[strategy]=\"forecast\")",
+            "formatString": "#,0",
+            "lineageTag": "4654a1bf-6114-43d4-97f6-60c08ca9b072"
+          },
+          {
+            "name": "Forecast Advantage",
+            "displayFolder": "出行运营",
+            "expression": "CALCULATE([Sim Served],dim_strategy[strategy]=\"forecast\")-CALCULATE([Sim Served],dim_strategy[strategy]=\"history\")",
+            "formatString": "#,0",
+            "lineageTag": "13bd48a8-e39a-485e-bfc8-1be17627f8f6"
+          },
+          {
+            "name": "Daily Avg Trips",
+            "displayFolder": "出行运营",
+            "expression": "DIVIDE([Trips],COUNTROWS(dim_date))",
+            "formatString": "#,0",
+            "lineageTag": "823db84a-a410-4ed6-91b5-f6958f3172cc"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Metrics",
+            "mode": "import",
+            "source": {
+              "expression": "DATATABLE(\"Placeholder\",STRING,{{\"\"}})",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

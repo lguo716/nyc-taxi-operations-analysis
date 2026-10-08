@@ -1,0 +1,172 @@
+{
+  "verified_at": "2026-10-08T05:21:25.634192+00:00",
+  "passed": true,
+  "desktop_pid": 18036,
+  "checks": [
+    {
+      "check": "map132.Trips",
+      "passed": true,
+      "expected_display": "Trips 2,062,443",
+      "evidence": "powerbi/map_interaction.txt"
+    },
+    {
+      "check": "map132.Distance",
+      "passed": true,
+      "expected_display": "平均里程 / 公里 24.55",
+      "evidence": "powerbi/map_interaction.txt"
+    },
+    {
+      "check": "map132.Speed",
+      "passed": true,
+      "expected_display": "平均行程速度 / km/h 37.68",
+      "evidence": "powerbi/map_interaction.txt"
+    },
+    {
+      "check": "map132.Efficiency N",
+      "passed": true,
+      "expected_display": "效率指标有效记录数 1,988,789",
+      "evidence": "powerbi/map_interaction.txt"
+    },
+    {
+      "check": "map132.Flag Rate",
+      "passed": true,
+      "expected_display": "有效需求记录标记率 13.32%",
+      "evidence": "powerbi/map_interaction.txt"
+    },
+    {
+      "check": "budget500.Served",
+      "passed": true,
+      "expected_display": "预测方案模拟覆盖记录 364,942",
+      "evidence": "powerbi/budget500_interaction.txt"
+    },
+    {
+      "check": "budget500.Idle",
+      "passed": true,
+      "expected_display": "预测方案闲置名额 7,058",
+      "evidence": "powerbi/budget500_interaction.txt"
+    },
+    {
+      "check": "budget500.Advantage",
+      "passed": true,
+      "expected_display": "相对历史方案多覆盖记录 1,338",
+      "evidence": "powerbi/budget500_interaction.txt"
+    },
+    {
+      "check": "budget500.Coverage",
+      "passed": true,
+      "expected_display": "预测方案模拟覆盖率 8.49%",
+      "evidence": "powerbi/budget500_interaction.txt"
+    },
+    {
+      "check": "budget1000.Served",
+      "passed": true,
+      "expected_display": "预测方案模拟覆盖记录 706,548",
+      "evidence": "powerbi/budget1000_interaction.txt"
+    },
+    {
+      "check": "budget1000.Idle",
+      "passed": true,
+      "expected_display": "预测方案闲置名额 37,452",
+      "evidence": "powerbi/budget1000_interaction.txt"
+    },
+    {
+      "check": "budget1000.Advantage",
+      "passed": true,
+      "expected_display": "相对历史方案多覆盖记录 3,621",
+      "evidence": "powerbi/budget1000_interaction.txt"
+    },
+    {
+      "check": "budget1000.Coverage",
+      "passed": true,
+      "expected_display": "预测方案模拟覆盖率 16.44%",
+      "evidence": "powerbi/budget1000_interaction.txt"
+    },
+    {
+      "check": "budget2000.Served",
+      "passed": true,
+      "expected_display": "预测方案模拟覆盖记录 1,325,757",
+      "evidence": "powerbi/budget2000_interaction.txt"
+    },
+    {
+      "check": "budget2000.Idle",
+      "passed": true,
+      "expected_display": "预测方案闲置名额 162,243",
+      "evidence": "powerbi/budget2000_interaction.txt"
+    },
+    {
+      "check": "budget2000.Advantage",
+      "passed": true,
+      "expected_display": "相对历史方案多覆盖记录 8,384",
+      "evidence": "powerbi/budget2000_interaction.txt"
+    },
+    {
+      "check": "budget2000.Coverage",
+      "passed": true,
+      "expected_display": "预测方案模拟覆盖率 30.85%",
+      "evidence": "powerbi/budget2000_interaction.txt"
+    },
+    {
+      "check": "reopened_pbix.january.Trips",
+      "passed": true,
+      "expected_display": "有效区域上车记录 3,465,683",
+      "evidence": "powerbi/pbix_january_interaction.txt"
+    },
+    {
+      "check": "reopened_pbix.january.Fare",
+      "passed": true,
+      "expected_display": "平均计价车费 $18.01",
+      "evidence": "powerbi/pbix_january_interaction.txt"
+    },
+    {
+      "check": "reopened_pbix.january.Tip Rate",
+      "passed": true,
+      "expected_display": "银行卡小费率 22.82%",
+      "evidence": "powerbi/pbix_january_interaction.txt"
+    },
+    {
+      "check": "map_keys",
+      "passed": true,
+      "matched_keys": 263,
+      "unknown_mapped": false
+    }
+  ],
+  "screenshots": [
+    {
+      "page": "overview",
+      "file": "reports/figures/powerbi/report_overview.png",
+      "width": 3344,
+      "height": 1880,
+      "manual_visual_review": "passed",
+      "review_note": "全年总量、费用/时长/小费卡片与月/小时/天气/日期分组均正常显示。",
+      "source": "reopened_and_refreshed_PBIX"
+    },
+    {
+      "page": "regions",
+      "file": "reports/figures/powerbi/report_regions.png",
+      "width": 3344,
+      "height": 1880,
+      "manual_visual_review": "passed",
+      "review_note": "本地纽约区域边界及渐变热度正常；中文表头、有效分母和独立源质量口径明确。",
+      "source": "reopened_and_refreshed_PBIX"
+    },
+    {
+      "page": "forecast",
+      "file": "reports/figures/powerbi/report_forecast.png",
+      "width": 3344,
+      "height": 1880,
+      "manual_visual_review": "passed",
+      "review_note": "选定模型及误差卡片、五方案比较、实际/预测趋势、地图和小时误差均可见。",
+      "source": "reopened_and_refreshed_PBIX"
+    },
+    {
+      "page": "dispatch",
+      "file": "reports/figures/powerbi/report_dispatch.png",
+      "width": 3344,
+      "height": 1880,
+      "manual_visual_review": "passed",
+      "review_note": "默认1000名额；三策略曲线及覆盖/未覆盖/闲置矩阵与真实模拟一致。",
+      "source": "reopened_and_refreshed_PBIX"
+    }
+  ],
+  "native_interaction_scope": "Map and all three budgets tested before PBIX conversion; January interaction and DAX retested after independent PBIX reopen and refresh."
+}

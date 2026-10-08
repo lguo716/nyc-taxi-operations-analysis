@@ -1,0 +1,4 @@
+﻿strategy,strategy_label
+uniform,均匀分配
+history,四周历史均值分配
+forecast,选定预测方案分配

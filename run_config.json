@@ -1,0 +1,18 @@
+{
+  "year": 2025,
+  "months": 12,
+  "seed": 42,
+  "forecast_horizon_hours": 1,
+  "validation_months": [
+    9,
+    10,
+    11
+  ],
+  "test_month": 12,
+  "simulation_budgets": [
+    500,
+    1000,
+    2000
+  ],
+  "run_at": "2026-10-08T03:27:02.391598+00:00"
+}

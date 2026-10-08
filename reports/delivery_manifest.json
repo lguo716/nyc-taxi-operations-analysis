@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T05:21:27.233587+00:00",
+  "generated_at": "2026-10-08T06:05:32.922907+00:00",
   "project": "D:\\resume\\projects\\nyc-taxi-operations-analysis",
   "scope": "Local source, reports, editable Power BI artifacts and retained predictions; raw source identities are in data/source_manifest.json.",
   "files": [
@@ -175,8 +175,8 @@
     },
     {
       "file": "NOTICE.md",
-      "bytes": 2082,
-      "sha256": "31f137f556d1bd7722582b437689f949d0de8eacdb188bf3be2b222920a60132"
+      "bytes": 2085,
+      "sha256": "6f8b4b3b39b53061fc649c4bd6552567f07103c45f78f8f622b323b48ba4537a"
     },
     {
       "file": "powerbi/budget1000_interaction.txt",
@@ -195,8 +195,8 @@
     },
     {
       "file": "powerbi/build_dashboard.py",
-      "bytes": 25092,
-      "sha256": "4daed955da67a3a135318612a76d6f45002c0db26d157ffa4321a4d3290a6ca4"
+      "bytes": 25098,
+      "sha256": "0119985c784348d2fff29a55c20fe2cc22e2b19cbee30adcaf476b47b0c5fa1e"
     },
     {
       "file": "powerbi/capture_pages.mjs",
@@ -250,8 +250,8 @@
     },
     {
       "file": "powerbi/taxi-theme.json",
-      "bytes": 221,
-      "sha256": "62ee209e45964d166de1d37a5ecfb908628d3eb189054eec0c7aca3462cfab75"
+      "bytes": 222,
+      "sha256": "cb00224cf84180bef7f2a82979118c052b22fc41de3edc15f8652f8c250c08e8"
     },
     {
       "file": "powerbi/Taxi.pbip",
@@ -560,8 +560,8 @@
     },
     {
       "file": "powerbi/Taxi.Report/definition/report.json",
-      "bytes": 1472,
-      "sha256": "5a1850e62f9b606f517ba85773724d0630cabc4f9e724ae42a32c894786b0d57"
+      "bytes": 1473,
+      "sha256": "66ab3e4782bdd37922fc09303c64a4bb25b5be956c2157b2acf961c898025fee"
     },
     {
       "file": "powerbi/Taxi.Report/definition/version.json",
@@ -574,9 +574,9 @@
       "sha256": "075ecf6d397fde5793291f10b29b00b43be8f1dd9e609718af1bef9e3209bbaa"
     },
     {
-      "file": "powerbi/Taxi.Report/StaticResources/RegisteredResources/Taxi_Portfolio.json",
-      "bytes": 226,
-      "sha256": "504b193176f5dd60a5e0cca6bd7790c252e6b0d926076203b70572ec250b9ef7"
+      "file": "powerbi/Taxi.Report/StaticResources/RegisteredResources/Taxi_Operations.json",
+      "bytes": 227,
+      "sha256": "23e6fee48cad3aaaee7fd7b89c9f4a3df8dd143c60b59f157c0f3d8c120b2441"
     },
     {
       "file": "powerbi/Taxi.Report/StaticResources/RegisteredResources/taxi_zones.geojson",
@@ -626,7 +626,7 @@
     {
       "file": "powerbi/ui_verification.json",
       "bytes": 5773,
-      "sha256": "04fd6f66eacbe1bc82666d5046d2f6b9c2bd8b49075802c21a532d20a2b19dc9"
+      "sha256": "ac0cc900cf44ad0d6a0c180f15ec04c0241543f71a2c0de19d9d552f142c69ba"
     },
     {
       "file": "powerbi/validation.json",
@@ -640,8 +640,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 4593,
-      "sha256": "9ad5cf2cbd4481656db9a68cc16d5b2d22de4ce551415e7eb7777d75b7a54e4e"
+      "bytes": 4571,
+      "sha256": "2b53d3d13b3b320535d56c74a33d7016f50237f9eb8f5e08fcb1fb4e3ffbf2bb"
     },
     {
       "file": "reports/artifact_verification.json",
@@ -719,9 +719,9 @@
       "sha256": "f5dfdadfc0f09eba71b1def20e4f5f4e3d3e59e256349c0c6661cb474d762c04"
     },
     {
-      "file": "reports/interview_guide.md",
-      "bytes": 1968,
-      "sha256": "60c308e57a6ad4628c70edf656003685ae79954941d12af51c541fa500e6284d"
+      "file": "reports/methodology_faq.md",
+      "bytes": 2029,
+      "sha256": "37857c7437c3e4f7a9a4c9f07502b645a37d35efe2b708837705df285d416fa4"
     },
     {
       "file": "reports/notebook_verification.json",
@@ -730,8 +730,13 @@
     },
     {
       "file": "reports/project_acceptance.md",
-      "bytes": 6739,
-      "sha256": "29600e00f37aa781d581dff39df1ced1a5617cf103b037c00dba4002ba1bbff9"
+      "bytes": 6663,
+      "sha256": "62f5989ae8a01e3b03edc181537ab229ebc4b0dc8a14e15278c84298f196e552"
+    },
+    {
+      "file": "reports/project_summary.md",
+      "bytes": 995,
+      "sha256": "6ff7183a7c23ab31e21317d1e1d29aaa77e65057ec51f522d8ce2f85f1b663fd"
     },
     {
       "file": "reports/reconciliation.json",
@@ -747,11 +752,6 @@
       "file": "reports/reproducibility_verification.json",
       "bytes": 2099,
       "sha256": "42c306299adec2f09b984d149c20e72eb13b122ebd6ce40a918663f616e590c3"
-    },
-    {
-      "file": "reports/resume_bullets.md",
-      "bytes": 1010,
-      "sha256": "00e402f78d39b8da95b23a7b3f014522471bc5892e7ec57d6f7c0848bda0bb19"
     },
     {
       "file": "reports/stage_timings.json",
@@ -1015,8 +1015,8 @@
     },
     {
       "file": "src/__init__.py",
-      "bytes": 54,
-      "sha256": "7a10e63b668be160e9cf7c66a5757c4272a85a97a803b82ec237a7a215c22ef6"
+      "bytes": 56,
+      "sha256": "0e366a678bc261c54256c649ef37c775681bc966e48024d090a515c1138e7f90"
     },
     {
       "file": "src/analyze.py",
@@ -1030,8 +1030,8 @@
     },
     {
       "file": "src/download.py",
-      "bytes": 6845,
-      "sha256": "0682f11cb0b18e3bc268b99570614cf8d421ee80700f4d4bcfb4d6455c060b31"
+      "bytes": 6855,
+      "sha256": "39c33578ccf645af3235710a30264479a4a7a507c5636118330b84a8ab6cf751"
     },
     {
       "file": "src/evaluate.py",
@@ -1070,8 +1070,8 @@
     },
     {
       "file": "src/reporting.py",
-      "bytes": 30684,
-      "sha256": "b679dbbf8949efe09cca2c533ea3c5dd5c3d7c75e25a9e3ab54d79321dab6225"
+      "bytes": 30696,
+      "sha256": "15bf4bc74ab755de662bd9840e88a33bae0dd8d7b8cf73bcd354971c640c6cd5"
     },
     {
       "file": "src/restore_powerbi_data.py",

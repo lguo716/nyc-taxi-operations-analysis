@@ -1,1 +1,1 @@
-"""Reproducible NYC Yellow Taxi portfolio project."""
+"""Reproducible NYC Yellow Taxi operations analysis."""

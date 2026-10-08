@@ -29,7 +29,7 @@ def fetch(url, target):
         for attempt in range(4):
             try:
                 offset = partial.stat().st_size if partial.exists() else 0
-                request = urllib.request.Request(url, headers={"Range": f"bytes={offset}-", "User-Agent": "nyc-taxi-portfolio/1.0"})
+                request = urllib.request.Request(url, headers={"Range": f"bytes={offset}-", "User-Agent": "nyc-taxi-operations-analysis/1.0"})
                 with urllib.request.urlopen(request, timeout=180) as response:
                     resume = offset > 0 and response.status == 206
                     if resume and not response.headers.get("Content-Range", "").startswith(f"bytes {offset}-"):

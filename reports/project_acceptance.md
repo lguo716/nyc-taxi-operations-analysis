@@ -1,6 +1,6 @@
 # 本地交付验收记录
 
-验收日期：2026-10-08。范围为2025全年 Yellow Taxi；所有业务结果来自本地全量运行。首次验收时为本地交付；随后按用户追加请求准备发布至[GitHub作品集仓库](https://github.com/lguo716/nyc-taxi-operations-analysis)。未修改已有两个项目或现有简历。
+验收日期：2026-10-08。范围为2025全年 Yellow Taxi；所有业务结果来自本地全量运行。源码、报告、学习材料和Power BI成果见[GitHub项目仓库](https://github.com/lguo716/nyc-taxi-operations-analysis)。
 
 公开版中fact_zone_hour.csv与simulation_hourly.csv以随附ZIP发布，`python -m src.restore_powerbi_data`可按大小和SHA256无损还原。原始行程数据、本地环境、模型权重、行级中间产物和日志仍在本地；此处的完整验收与交付身份清单包含这些本地产物。公开版保留源码、全部分析汇总、实际PBIX、可编辑PBIP及学习材料。
 
@@ -17,7 +17,7 @@
 | 调度分配及名额守恒 | 通过 | 三策略×三预算，744个12月小时；逐小时预算与需求守恒；零权重和并列规则测试通过 |
 | 边界测试 | 通过 | [测试报告](test_results.xml)：21项测试；覆盖缺月、未知区域、真实零值、夏令时、滞后泄漏、时间隔离、名额守恒及零预测/并列 |
 | 独立进程统一入口重跑 | 通过 | [重跑证据](reproducibility_verification.json)：`python -m src.run_pipeline --stage all --seed 42`退出0；7项关键模型/预测/结果SHA256逐字节一致 |
-| 中文报告与学习材料 | 通过 | README、业务报告、指标字典、完整流程、九阶段材料、面试稿与三条简历草稿 |
+| 中文报告与学习材料 | 通过 | README、业务报告、指标字典、完整流程、九阶段材料、方法说明与项目摘要 |
 | 三份已执行Notebook | 通过 | [执行核对](notebook_verification.json)：5/6/5个代码单元全部执行，0个错误 |
 | 可编辑PBIP及实际PBIX | 通过 | [PBIP](../powerbi/Taxi.pbip)、[PBIX](../powerbi/nyc_taxi_operations.pbix)：由Desktop另存为；独立实例重新打开、读取本地CSV刷新后再次保存 |
 | Power BI计算与交互 | 通过 | [39项DAX核对](../powerbi/desktop_verification.json)、[UI核对](../powerbi/ui_verification.json)：金额/分母、区域/月份、模型误差与三档预算均和分析结果一致 |

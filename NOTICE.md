@@ -8,7 +8,7 @@ NYC Taxi & Limousine Commission，2025年1—12月 Yellow Taxi Trip Records、Ta
 
 ## 天气
 
-日度天气由[Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api)提供，选择ERA5模型，纽约代表点40.7812,-73.9665，2025全年，America/New_York本地日期。天气是再分析而非当时发布的预测，仅用于描述性分析。数据按[CC BY 4.0及Open-Meteo使用条款](https://open-meteo.com/en/terms)使用，归属Open-Meteo及其ERA5上游数据提供者；本项目属于个人学习与非商业作品集。
+日度天气由[Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api)提供，选择ERA5模型，纽约代表点40.7812,-73.9665，2025全年，America/New_York本地日期。天气是再分析而非当时发布的预测，仅用于描述性分析。数据按[CC BY 4.0及Open-Meteo使用条款](https://open-meteo.com/en/terms)使用，归属Open-Meteo及其ERA5上游数据提供者；本项目用于非商业数据分析与方法复现。
 
 ## 日历、地图与工具
 

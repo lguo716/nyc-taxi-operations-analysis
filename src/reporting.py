@@ -222,7 +222,7 @@ MAE最高的五个本地目标小时如下；这是区域小时平均误差，�
 预测优势不等于因果效果，低频区域的WAPE可能为空。公开记录受提供方质量影响，不能代表纽约全部出行市场。地理热度与收费异常都是排查线索，需要真实运营数据进一步验证。
 """
     (ROOT/"reports/findings.md").write_text(findings,encoding="utf-8")
-    resume=f"""# 简历项目描述（本地草稿，未修改现有简历）
+    summary=f"""# 项目摘要
 
 **城市出行运营分析与区域需求预测｜DuckDB SQL、Python、LightGBM、Power BI**
 
@@ -230,16 +230,16 @@ MAE最高的五个本地目标小时如下；这是区域小时平均误差，�
 - 构建263区域下一小时需求特征，采用三个扩展时间窗口比较三种朴素基准与两种LightGBM Poisson配置；验证锁定{selection['selected_label']}，独立12月测试WAPE为{selected.wape:.2%}、MAE为{selected.mae:.2f}次/区域小时。
 - 在500/1000/2000服务名额假设下比较三种区域分配策略，默认1000名额时预测方案相对四周历史方案模拟覆盖差额为{delta:+,}次；制作四页Power BI展示运营、区域、预测和策略，明确结果属于公开数据离线评估及模拟。
 
-使用前查看最终Desktop验收；不能把模拟覆盖差额写成真实成本节省、车辆增加或企业落地效果。
+结果与复现证据见[完整验收记录](project_acceptance.md)。模拟覆盖差额不能解释为真实成本节省、车辆增加或实际部署效果。
 """
-    (ROOT/"reports/resume_bullets.md").write_text(resume,encoding="utf-8")
-    (ROOT/"reports/interview_guide.md").write_text(f"""# 面试讲解稿
+    (ROOT/"reports/project_summary.md").write_text(summary,encoding="utf-8")
+    (ROOT/"reports/methodology_faq.md").write_text(f"""# 方法说明与常见问题
 
-## 90秒项目介绍
+## 分析流程概述
 
-我用纽约TLC 2025年{quality.raw_rows/1e6:.2f}百万条出租车公开记录，回答区域小时需求规律、下一小时预测和名额分配三个问题。DuckDB分月扫描Parquet，保留原记录身份，把需求、费用、效率和小费分母分开。预测比较三个朴素基准和两种LightGBM Poisson配置，用9/10/11月扩展窗口选择，12月独立验收。最终选定{selection['selected_label']}，测试WAPE {selected.wape:.2%}。模拟部分采用每小时500/1000/2000个服务名额，按均匀、历史和预测权重分配，报告覆盖和闲置。四页Power BI把分析与决策串起来，但我不会把模拟结果说成真实车辆调度收益。
+本项目使用纽约TLC 2025年{quality.raw_rows/1e6:.2f}百万条出租车公开记录，分析区域小时需求规律、下一小时预测和名额分配三个问题。DuckDB分月扫描Parquet，保留原记录身份，把需求、费用、效率和小费分母分开。预测比较三个朴素基准和两种LightGBM Poisson配置，用9/10/11月扩展窗口选择，12月独立验收。最终选定{selection['selected_label']}，测试WAPE {selected.wape:.2%}。模拟部分采用每小时500/1000/2000个服务名额，按均匀、历史和预测权重分配，报告覆盖和闲置。四页Power BI展示运营分析、区域诊断、预测误差与模拟结果；这些结果不能解释为真实车辆调度收益。
 
-## 常见追问
+## 方法与结果问答
 
 **为什么不随机划分？** 随机划分会让未来季节模式进入过去；扩展窗口更接近时间顺序。12月不参与早停或方案选择。
 
@@ -259,7 +259,7 @@ MAE最高的五个本地目标小时如下；这是区域小时平均误差，�
 
 **DuckDB SQL · Python · LightGBM · Power BI · 2025全年公开行程**
 
-[GitHub作品集仓库](https://github.com/lguo716/nyc-taxi-operations-analysis)
+[GitHub项目仓库](https://github.com/lguo716/nyc-taxi-operations-analysis)
 
 从{int(quality.raw_rows):,}条TLC Yellow Taxi源记录，分析出行规模、区域效率与质量，并预测263区域下一小时的已记录上车量。完成三个扩展验证窗口、独立12月测试和固定服务名额的区域分配模拟。结果均来自实际运行，不预设预测提升。
 
@@ -311,9 +311,9 @@ python -m venv .venv
 
 ![运营总览](reports/figures/powerbi/report_overview.png)
 
-[完整流程与九阶段学习](docs/project_complete_walkthrough.md) · [运营Notebook](notebooks/01_operations.ipynb) · [预测Notebook](notebooks/02_forecasting.ipynb) · [模拟Notebook](notebooks/03_dispatch.ipynb) · [面试稿](reports/interview_guide.md) · [简历草稿](reports/resume_bullets.md)
+[完整流程与九阶段学习](docs/project_complete_walkthrough.md) · [运营Notebook](notebooks/01_operations.ipynb) · [预测Notebook](notebooks/02_forecasting.ipynb) · [模拟Notebook](notebooks/03_dispatch.ipynb) · [方法说明与常见问题](reports/methodology_faq.md) · [项目摘要](reports/project_summary.md)
 
-仅查看结果无需下载原始数据。Power BI导入reports/tables；看板刷新不训练模型。公开仓库包含源码、汇总结果、PBIP/PBIX、已执行Notebook及图表，原始行程数据、本地环境、模型权重、行级中间产物与运行日志留在本地，可通过完整流程重建。两个超大CSV以ZIP发布并可无损还原；[本地验收清单](reports/delivery_manifest.json)也记录未纳入仓库的本地产物身份。未修改已有两个项目或现有简历。
+仅查看结果无需下载原始数据。Power BI导入reports/tables；看板刷新不训练模型。公开仓库包含源码、汇总结果、PBIP/PBIX、已执行Notebook及图表，原始行程数据、本地环境、模型权重、行级中间产物与运行日志留在本地，可通过完整流程重建。两个超大CSV以ZIP发布并可无损还原；[本地验收清单](reports/delivery_manifest.json)也记录未纳入仓库的本地产物身份。
 """
     (ROOT/"README.md").write_text(readme,encoding="utf-8")
     if not docs_only:

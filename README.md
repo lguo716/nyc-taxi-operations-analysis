@@ -2,7 +2,7 @@
 
 **DuckDB SQL · Python · LightGBM · Power BI · 2025全年公开行程**
 
-[GitHub作品集仓库](https://github.com/lguo716/nyc-taxi-operations-analysis)
+[GitHub项目仓库](https://github.com/lguo716/nyc-taxi-operations-analysis)
 
 从48,722,602条TLC Yellow Taxi源记录，分析出行规模、区域效率与质量，并预测263区域下一小时的已记录上车量。完成三个扩展验证窗口、独立12月测试和固定服务名额的区域分配模拟。结果均来自实际运行，不预设预测提升。
 
@@ -54,6 +54,6 @@ python -m venv .venv
 
 ![运营总览](reports/figures/powerbi/report_overview.png)
 
-[完整流程与九阶段学习](docs/project_complete_walkthrough.md) · [运营Notebook](notebooks/01_operations.ipynb) · [预测Notebook](notebooks/02_forecasting.ipynb) · [模拟Notebook](notebooks/03_dispatch.ipynb) · [面试稿](reports/interview_guide.md) · [简历草稿](reports/resume_bullets.md)
+[完整流程与九阶段学习](docs/project_complete_walkthrough.md) · [运营Notebook](notebooks/01_operations.ipynb) · [预测Notebook](notebooks/02_forecasting.ipynb) · [模拟Notebook](notebooks/03_dispatch.ipynb) · [方法说明与常见问题](reports/methodology_faq.md) · [项目摘要](reports/project_summary.md)
 
-仅查看结果无需下载原始数据。Power BI导入reports/tables；看板刷新不训练模型。公开仓库包含源码、汇总结果、PBIP/PBIX、已执行Notebook及图表，原始行程数据、本地环境、模型权重、行级中间产物与运行日志留在本地，可通过完整流程重建。两个超大CSV以ZIP发布并可无损还原；[本地验收清单](reports/delivery_manifest.json)也记录未纳入仓库的本地产物身份。未修改已有两个项目或现有简历。
+仅查看结果无需下载原始数据。Power BI导入reports/tables；看板刷新不训练模型。公开仓库包含源码、汇总结果、PBIP/PBIX、已执行Notebook及图表，原始行程数据、本地环境、模型权重、行级中间产物与运行日志留在本地，可通过完整流程重建。两个超大CSV以ZIP发布并可无损还原；[本地验收清单](reports/delivery_manifest.json)也记录未纳入仓库的本地产物身份。
